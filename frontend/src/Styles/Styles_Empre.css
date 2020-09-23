@@ -1,0 +1,25 @@
+.color_nav{
+    background-color:#FFBA5C ;
+}
+.order{
+    display:flex;
+    
+}
+
+.Empre{
+margin: 5px;
+
+}
+.solid {
+    border-top: 1px solid rgb(3, 3, 3);
+  }
+ .mar{
+    margin: 8px;
+ }
+
+ .opcio{
+background-color: #F8A636;
+border-radius: 8px;
+margin: 5px;
+
+ }
