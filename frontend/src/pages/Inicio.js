@@ -1,9 +1,9 @@
 import React from 'react';
-import Tabs from '../componets/Inicio/tabs';
-import Banner from '../componets/Inicio/imagen';
-import Recordatorios from '../componets/Inicio/Recordatorios';
-import Noticias from '../componets/Inicio/Noticias';
-import Boton from '../componets/Inicio/Bonton_c';
+import Tabs from '../components/tabs';
+import Banner from '../components/imagen';
+import Recordatorios from '../components/Recordatorios';
+import Noticias from '../components/Noticias';
+import Boton from '../components/Bonton_c';
 import estilos from '../Styles/Styles_inicio.css';
 
 function Inicio() {

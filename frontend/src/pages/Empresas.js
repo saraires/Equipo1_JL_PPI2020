@@ -1,9 +1,9 @@
 import React from 'react';
-import Home from '../componets/Empresas/Home';
-import Icon_E from '../componets/Empresas/Ico_empresas';
+import Home from '../components/Home';
+import Icon_E from '../components/Ico_empresas';
 import estilos from '../Styles/Styles_Empre.css';
 import imag1 from '../images/Frisby.png';
-import imag2 from '../images/Todoenartes_2.png';
+import imag2 from '../images/Todoenartes_2 .png';
 import imag3 from '../images/Metro.png';
 import imag4 from '../images/Exito.png';
 import imag5 from '../images/Presto.jpg';
