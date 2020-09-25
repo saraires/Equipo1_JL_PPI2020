@@ -4,7 +4,7 @@ export default function Nombre_usuario() {
     return (
 
         <>
-            <div className="container" style={{padding:"40px"}}>
+            <div className="container card shadow p-5 mb-3" style={{padding:"40px"}}>
                 <br />
                 <center><h4>Nombre de usuario</h4></center>
                 <br />

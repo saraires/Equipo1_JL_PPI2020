@@ -39,9 +39,9 @@ export default function Semana1() {
                     </div>
                     <img src={Green} style={{ width: "90px", marginLeft: "165px" }} />
                 </div>
-                <div className="card-body container shadow p-4 mb-3" style={{ color: "#47525E", display: "flex" }}>
-                    <img src={Location} style={{ width: "90px", marginRight: "160px" }} />
-                    <div style={{ textAlign: "right" }}>
+                <div className="card-body container shadow p-4 mb-3" style={{ color: "#47525E", display: "flex"}}>
+                    <img src={Location} style={{ width: "90px" }} />
+                    <div style={{ textAlign: "right", float:"left"}}>
                         <h3>Viernes 31, Julio</h3>
                         <h3>100 Kms</h3> {/* Aquí iría una prop para determinar los kms recorridos */}
                     </div>

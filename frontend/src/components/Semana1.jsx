@@ -1,5 +1,7 @@
 import React from 'react';
 import Rank from '../images/Rank.png';
+import Bolita from '../images/Bolita.png';
+
 
 export default function Semana() {
     return (
@@ -20,6 +22,37 @@ export default function Semana() {
                     <div className="dropdown-divider"></div>
                     <br />
                     <h4>Actividad semanal:</h4></center>
+                <br />
+                <div className="container" style={{ display: "flex", margin: "auto" }}>
+                    <div style={{margin: "auto"}}>
+                        <img src={Bolita} style={{width: "30px" }} alt="foto" className="rounded-circle" />
+                        <center><p>L</p></center>
+                    </div>
+                    <div style={{margin: "auto"}}>
+                        <img src={Bolita} style={{width: "30px" }} alt="foto" className="rounded-circle" />
+                        <center><p>M</p></center>
+                    </div>
+                    <div style={{margin: "auto"}}>
+                        <img src={Bolita} style={{width: "30px" }} alt="foto" className="rounded-circle" />
+                        <center><p>M</p></center>
+                    </div>
+                    <div style={{margin: "auto"}}>
+                        <img src={Bolita} style={{width: "30px" }} alt="foto" className="rounded-circle" />
+                        <center><p>J</p></center>
+                    </div>
+                    <div style={{margin: "auto"}}>
+                        <img src={Bolita} style={{width: "30px" }} alt="foto" className="rounded-circle" />
+                        <center><p>V</p></center>
+                    </div>
+                    <div style={{margin: "auto"}}>
+                        <img src={Bolita} style={{width: "30px" }} alt="foto" className="rounded-circle" />
+                        <center><p>S</p></center>
+                    </div>
+                    <div style={{margin: "auto"}}>
+                        <img src={Bolita} style={{width: "30px" }} alt="foto" className="rounded-circle" />
+                        <center><p>D</p></center>
+                    </div>
+                </div>
                 {/* Bolitas de colores :) */}
             </div>
         </div>

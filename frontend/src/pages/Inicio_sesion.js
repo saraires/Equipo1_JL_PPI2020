@@ -7,8 +7,7 @@ import Raster from "../images/Raster.png";
 
 export default function Inicio_sesion() {
     return (
-        <>
-
+        <div className="App">
             <div className="container">
                 <form>
                     <br />
@@ -26,7 +25,7 @@ export default function Inicio_sesion() {
                         <br />
                         <div className="container" style={{ display: "inline-block" }}>
                             <div className="mx-auto" style={{ width: "200px" }}>
-                            <button type="button1" className="btn btn-dark btn-sm float-right" style={{ display: "flex" }} data-toggle="modal" data-target="#exampleModal"><img src={Google_logo} alt="Logo" className="rounded mx-auto d-block" width="25px" />
+                            <button type="button1" className="btn btn-dark btn-sm float-right" style={{ display: "flex"}} data-toggle="modal" data-target="#exampleModal"><img src={Google_logo} alt="Logo" className="rounded mx-auto d-block" width="25px"/>
                                     Google
                                 </button>
                                 <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -72,6 +71,6 @@ export default function Inicio_sesion() {
                 </form>
             </div>
 
-        </>
+        </div>
     );
 }
