@@ -7,7 +7,7 @@ class imagen extends Component {
     }
 
     render() {
-        return (<>            
+        return (<>
             <img src={banner} class="img-fluid " alt="Responsive image"></img>
         </>)
 

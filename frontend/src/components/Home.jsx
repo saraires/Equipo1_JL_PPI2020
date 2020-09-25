@@ -17,7 +17,7 @@ class Home extends Component {
                     <ul class="navbar-nav">
                         <br />
                         <div className="order mar">
-                            <img src={perfil}  alt="foto" width="90rem" height="90rem" align="left" />
+                            <img src={perfil} alt="foto" width="90rem" height="90rem" align="left" />
                             <div className="mar">
                                 <h4 >Celeste Tamayo</h4>
                                 <h4 >5000 Terras</h4>
@@ -33,7 +33,7 @@ class Home extends Component {
                         <li class="nav-item active">
                             <a class="nav-link  opcio" href="#">Empresas afiliadas <span class="sr-only">(current)</span></a>
                         </li>
-                       <div className="dropdown-divider "></div>
+                        <div className="dropdown-divider "></div>
 
                         <li class="nav-item active">
                             <a class="nav-link  opcio" href="#">Notificaciones  <span class="sr-only">(current)</span></a>

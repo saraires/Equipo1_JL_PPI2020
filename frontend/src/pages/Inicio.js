@@ -13,15 +13,14 @@ function Inicio() {
       <div className="container">
         <Banner />
         <div class="shadow-lg p-3 mb-5 bg-white rounded">
-
           <br />
           <div>
             <h4 className="font-weight-bolder">Hola Celeste Tamayo</h4>
             <p className="text-muted">
               <a href="#" class="text-reset font-weight-bolder">tenemos un resumen de tu día </a>
             </p>
-            <Boton/>
-            <br/>
+            <Boton />
+            <br />
             <hr class="solid"></hr>
           </div>
           <Tabs />

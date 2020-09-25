@@ -3,6 +3,7 @@ import Celeste from '../images/Celeste.jpg';
 import Exito from '../images/Exito.png';
 import Metro from '../images/Metro.png';
 
+
 export default function Carrito(){
   return (
      <div>
@@ -33,6 +34,8 @@ export default function Carrito(){
 
 
   {/*Esto es un comentario className, className = "container", style = {{backgroundColor: "#000000"}}*/}    
+
+
   </div>
 
 

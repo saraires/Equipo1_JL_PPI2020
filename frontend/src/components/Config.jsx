@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Config() {
     return (
-        <div> 
+        <div>
             <div className="container">
                 <div className="accordion shadow-lg p-3 mb-5 bg-white rounded" id="accordionExample">
                     <div className="card">
@@ -46,8 +46,8 @@ export default function Config() {
                                     <li className="list-group-item">
                                         <div class="custom-control custom-switch">
                                             <input type="checkbox" class="custom-control-input" id="customSwitch1" />
-                                            <label class="custom-control-label" for="customSwitch1" style={{display:'block'}}>Recordatorios silenciosos</label>
-                                            <a href="#" class="text-decoration-none"  data-toggle="popover"  style={{fontSize:'10pt'}} data-trigger="focus" title="Son notificaciones que llegan a tu celular sin vibrar o producir sonido" >¿Qué son?</a>
+                                            <label class="custom-control-label" for="customSwitch1" style={{ display: 'block' }}>Recordatorios silenciosos</label>
+                                            <a href="#" class="text-decoration-none" data-toggle="popover" style={{ fontSize: '10pt' }} data-trigger="focus" title="Son notificaciones que llegan a tu celular sin vibrar o producir sonido" >¿Qué son?</a>
                                         </div>
                                     </li>
                                     <li className="list-group-item">

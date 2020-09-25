@@ -5,7 +5,7 @@ export default function MenuPremios() {
     return (
         <div>
             <div>
-                <nav className="navbar navbar-expand-lg navbar-light container shadow-lg p-3 mb-5" style={{ background: "#FFBA5C"}}>
+                <nav className="navbar navbar-expand-lg navbar-light container shadow-lg p-3 mb-5" style={{ background: "#FFBA5C" }}>
                     <a className="navbar-brand text-center texto font-weight-bolder" href="#">Convenios</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style={{ background: "#FFBA5C" }}>
                         <span className="navbar-toggler-icon"></span>
@@ -44,7 +44,7 @@ export default function MenuPremios() {
                 </nav>
             </div>
 
-                {/* 
+            {/* 
             <div className="container shadow-lg p-3 mb-5 bg-white rounded">
                 <nav class="navbar navbar-expand-lg navbar-light bg-warning">
                     <a class="navbar-brand" href="#">Historial de compras</a>
@@ -73,6 +73,6 @@ export default function MenuPremios() {
                     </div>
                 </nav>
             </div>*/}
-            </div>
+        </div>
     );
 }
