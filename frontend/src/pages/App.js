@@ -10,7 +10,7 @@ import Premios from './Pages/Premios';
 import Entrar from './Pages/Entrar';
 import Registrate from './Pages/Registrate';
 import Nacimiento from './Pages/Nacimiento';
-
+import Nombre_usuario from './Pages/Nombre_usuario';
 
 function App() {
   return (
