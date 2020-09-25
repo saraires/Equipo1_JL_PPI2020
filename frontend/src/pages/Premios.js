@@ -11,8 +11,8 @@ export default function Premios() {
     return (
         <>
 
-            <nav className="navbar navbar-expand-lg navbar-light" style={{ background: "#FFBA5C" }} >
-                <a className="navbar-brand text-center texto font-weight-bolder" href="#">Premios/Bonos</a>
+<nav className="navbar navbar-expand-lg navbar-light container shadow-lg p-3 mb-5" style={{ background: "#FFBA5C" }}>
+                    <a className="navbar-brand text-center texto font-weight-bolder" href="#">Carrito</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

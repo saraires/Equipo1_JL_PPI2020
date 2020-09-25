@@ -14,10 +14,13 @@ import Mapa from '../components/Mapa';
 
 
 
+import Ranking from '../components/Ranking';
+
+
 function App() {
   return (
-
     <div className="App">
+      
       <BrowserRouter>
         <div>
           <Link to="/google">
