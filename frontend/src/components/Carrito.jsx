@@ -7,7 +7,7 @@ import Metro from '../images/Metro.png';
 export default function Carrito() {
   return (
     <>
-      <div>
+      <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light container shadow-lg p-3 mb-5" style={{ background: "#FFBA5C" }}>
           <a className="navbar-brand text-center texto font-weight-bolder" href="#">Carrito</a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style={{ background: "#FFBA5C" }}>
@@ -46,8 +46,8 @@ export default function Carrito() {
           </div>
         </nav>
       </div>
-      <div className="jumbotron jumbotron-fluid" style={{ display: "flex" }}>
-      <span className="border border-dark"></span>
+      <div className="container jumbotron jumbotron-fluid" style={{ display: "flex" }}>
+        <span className="border border-dark"></span>
         <div className="container">
           <p className="container">Aquí se encuentran todos los bonos que has agregado al carrito, puedes activarlos y usarlos</p>
         </div>

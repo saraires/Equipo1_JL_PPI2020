@@ -24,32 +24,32 @@ export default function Semana() {
                     <h4>Actividad semanal:</h4></center>
                 <br />
                 <div className="container" style={{ display: "flex", margin: "auto" }}>
-                    <div style={{margin: "auto"}}>
-                        <img src={Bolita} style={{width: "30px" }} alt="foto" className="rounded-circle" />
+                    <div style={{ margin: "auto" }}>
+                        <img src={Bolita} style={{ width: "30px" }} alt="foto" className="rounded-circle" />
                         <center><p>L</p></center>
                     </div>
-                    <div style={{margin: "auto"}}>
-                        <img src={Bolita} style={{width: "30px" }} alt="foto" className="rounded-circle" />
+                    <div style={{ margin: "auto" }}>
+                        <img src={Bolita} style={{ width: "30px" }} alt="foto" className="rounded-circle" />
                         <center><p>M</p></center>
                     </div>
-                    <div style={{margin: "auto"}}>
-                        <img src={Bolita} style={{width: "30px" }} alt="foto" className="rounded-circle" />
+                    <div style={{ margin: "auto" }}>
+                        <img src={Bolita} style={{ width: "30px" }} alt="foto" className="rounded-circle" />
                         <center><p>M</p></center>
                     </div>
-                    <div style={{margin: "auto"}}>
-                        <img src={Bolita} style={{width: "30px" }} alt="foto" className="rounded-circle" />
+                    <div style={{ margin: "auto" }}>
+                        <img src={Bolita} style={{ width: "30px" }} alt="foto" className="rounded-circle" />
                         <center><p>J</p></center>
                     </div>
-                    <div style={{margin: "auto"}}>
-                        <img src={Bolita} style={{width: "30px" }} alt="foto" className="rounded-circle" />
+                    <div style={{ margin: "auto" }}>
+                        <img src={Bolita} style={{ width: "30px" }} alt="foto" className="rounded-circle" />
                         <center><p>V</p></center>
                     </div>
-                    <div style={{margin: "auto"}}>
-                        <img src={Bolita} style={{width: "30px" }} alt="foto" className="rounded-circle" />
+                    <div style={{ margin: "auto" }}>
+                        <img src={Bolita} style={{ width: "30px" }} alt="foto" className="rounded-circle" />
                         <center><p>S</p></center>
                     </div>
-                    <div style={{margin: "auto"}}>
-                        <img src={Bolita} style={{width: "30px" }} alt="foto" className="rounded-circle" />
+                    <div style={{ margin: "auto" }}>
+                        <img src={Bolita} style={{ width: "30px" }} alt="foto" className="rounded-circle" />
                         <center><p>D</p></center>
                     </div>
                 </div>

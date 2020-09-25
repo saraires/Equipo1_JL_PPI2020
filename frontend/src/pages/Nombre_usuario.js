@@ -4,7 +4,7 @@ export default function Nombre_usuario() {
     return (
 
         <>
-            <div className="container card shadow p-5 mb-3" style={{padding:"40px"}}>
+            <div className="container card shadow p-5 mb-3" style={{ padding: "40px" }}>
                 <br />
                 <center><h4>Nombre de usuario</h4></center>
                 <br />
@@ -15,10 +15,10 @@ export default function Nombre_usuario() {
                         <h6><small className="text-muted font-weight-bold">www.bicipoint.com/Celeste_01</small></h6>
                         <h7><small className="text-muted text-leaft">El nombre de usuario solo puede contener letras, números, guiones bajos y puntos. Si cambias el nombre de usuario, tu enlace de perfil también cambiará.</small></h7>
                     </div>
-                    <br/>
-                    <br/>
-                    <br/>
-                        <button type="button" className="btn btn-warning btn-lg btn-block">Guardar</button>
+                    <br />
+                    <br />
+                    <br />
+                    <button type="button" className="btn btn-warning btn-lg btn-block">Guardar</button>
                 </form>
             </div>
 

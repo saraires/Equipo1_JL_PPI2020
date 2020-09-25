@@ -32,13 +32,13 @@ export default function Inicio_sesion() {
                             <label class="form-check-label" for="defaultCheck1">No deseo que me contacten por el correo</label></center></div>
                         <br />
                         <center><h6>Al continuar, confirmas que estás de acuerdo con los <a href="#" class="text-decoration-none">Términos de uso</a> de BiciPoint y que has leído la <a href="#" class="text-decoration-none">Política de privacidad</a> de BiciPoint.</h6></center>
-                        <br/>
+                        <br />
                         <center><h5><small className="text-muted">O inicia sesión con tus</small></h5></center>
                         <div className="dropdown-divider float-left"></div>
                         <center><h5><small className="text-muted">redes sociales</small></h5></center>
                         <div className="container" style={{ display: "inline-block" }}>
                             <div className="mx-auto" style={{ width: "200px" }}>
-                            <button type="button1" className="btn btn-dark btn-sm float-right" style={{ display: "flex" }} data-toggle="modal" data-target="#exampleModal"><img src={Google_logo} alt="Logo" className="rounded mx-auto d-block" width="25px" />
+                                <button type="button1" className="btn btn-dark btn-sm float-right" style={{ display: "flex" }} data-toggle="modal" data-target="#exampleModal"><img src={Google_logo} alt="Logo" className="rounded mx-auto d-block" width="25px" />
                                     Google
                                 </button>
                                 <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

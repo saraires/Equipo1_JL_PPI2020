@@ -10,8 +10,6 @@ class imagen extends Component {
         return (<>
             <img src={banner} class="img-fluid " alt="Responsive image"></img>
         </>)
-
     }
-
 }
 export default imagen;

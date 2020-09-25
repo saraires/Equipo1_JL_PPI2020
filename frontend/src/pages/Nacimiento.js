@@ -6,7 +6,7 @@ export default function Inicio_sesion() {
     return (
         <>
 
-            <div className= "card container shadow-lg p-3 mb-5 bg-white">
+            <div className="card container shadow-lg p-3 mb-5 bg-white">
                 <br />
                 <center><h4>¡Solo un paso más!</h4></center>
                 <br />
@@ -18,7 +18,7 @@ export default function Inicio_sesion() {
                 <br />
                 <button type="button" className="btn btn-warning btn-lg btn-block">Siguiente</button>
             </div>
-            
+
         </>
     );
 }
