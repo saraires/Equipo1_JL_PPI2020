@@ -9,6 +9,8 @@ import Inicio_sesion from './Pages/Inicio_sesion';
 import Premios from './Pages/Premios';
 import Entrar from './Pages/Entrar';
 import Registrate from './Pages/Registrate';
+import Nacimiento from './Pages/Nacimiento';
+
 
 function App() {
   return (
