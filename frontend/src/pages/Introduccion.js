@@ -9,26 +9,27 @@ import estilos from '../Styles/Styles_intro.css';
 function Introduccion() {
   return (
     <div>
-      <Carrucel
+      <Carrucel />
 
-//  a       Imagenes={[
+      {/*
+        Imagenes={[
 
-//           {
-//             Img: imagen1,
-//             NomImg: "imagen_1",
-//             Mensaje: ""
-//           },
-//           {
-//             Img: imagen2,
-//             NomImg: "imagen_2",
-//             Mensaje: ""
-//           },
-//           {
-//             Img: imagen3,
-//             NomImg: "imagen:_3",
-//             Mensaje: ""
-//           }]} 
-        />
+        {
+          Img: imagen1,
+          NomImg: "imagen_1",
+          Mensaje: ""
+        },
+        {
+          Img: imagen2,
+          NomImg: "imagen_2",
+          Mensaje: ""
+        },
+        {
+          Img: imagen3,
+          NomImg: "imagen:_3",
+          Mensaje: ""
+        }]}
+        */}
 
       <Boton />
 

@@ -7,7 +7,7 @@ class Boton extends Component {
     }
 
     render() {
-        return (<>        
+        return (<>
             <button type="button" className="btn btn-secondary  ubic " disabled>Saltar</button>
         </>)
 

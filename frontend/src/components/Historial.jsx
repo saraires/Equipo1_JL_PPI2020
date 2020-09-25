@@ -54,8 +54,8 @@ export default function MenuPremios() {
                             </div>
                         </div>
                     </div>
-                </div> 
-            </div> 
-        </div>      
+                </div>
+            </div>
+        </div>
     );
 }
