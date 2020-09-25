@@ -7,6 +7,8 @@ import styles from '../components/styles.css';
 import Formulario from './Pages/Formulario';
 import Inicio_sesion from './Pages/Inicio_sesion';
 import Premios from './Pages/Premios';
+import Entrar from './Pages/Entrar';
+import Registrate from './Pages/Registrate';
 
 function App() {
   return (
