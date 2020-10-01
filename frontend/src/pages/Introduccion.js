@@ -9,8 +9,9 @@ function Introduccion() {
   return (
     <div>
       <Carrucel />
+      <button type="button" className="btn btn-secondary  ubic " disabled>Saltar</button>
 
-      {/*
+       {/*
         Imagenes={[
 
         {
@@ -29,9 +30,6 @@ function Introduccion() {
           Mensaje: ""
         }]}
         */}
-
-      <button type="button" className="btn btn-secondary  ubic " disabled>Saltar</button>
-
     </div>
   );
 }

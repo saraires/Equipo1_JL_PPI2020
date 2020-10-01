@@ -1,6 +1,6 @@
 import React from 'react';
-import Home from '../components/Home';
-import Icon_E from '../components/Ico_empresas';
+import Home from '../components/PreMenu';
+import Icon_E from '../components/PreEmpresas';
 import estilos from '../Styles/Styles_Empre.css';
 import imag1 from '../images/Frisby.png';
 import imag2 from '../images/Todoenartes_2 .png';

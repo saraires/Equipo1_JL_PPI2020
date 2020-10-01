@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Nombre_usuario() {
+export default function Inicio_NombreUser() {
     return (
 
         <>

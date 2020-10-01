@@ -5,7 +5,7 @@ import Facebook_logo from '../images/Facebook_logo.webp';
 import Celeste from "../images/Celeste.jpg";
 import Raster from "../images/Raster.png";
 
-export default function Inicio_sesion() {
+export default function Inicio_Sesion() {
     return (
         <div className="App">
             <div className="container">
@@ -65,8 +65,8 @@ export default function Inicio_sesion() {
                                     </div>
                                 </div>
                                 <button type="button" className="btn btn-dark btn-sm float-left" style={{ display: "flex" }} ><img src={Facebook_logo} alt="Logo" className="rounded mx-auto d-block" width="25px" />Facebook</button>
-                            </div></div>
-
+                            </div>
+                        </div>    
                     </div>
                 </form>
             </div>

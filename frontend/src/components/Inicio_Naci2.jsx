@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Nacimiento2() {
+export default function Inicio_Naci2() {
     return (
         <div>
             <center>

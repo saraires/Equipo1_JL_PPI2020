@@ -7,7 +7,7 @@ import Mountain from '../images/Mountain.png';
 import Raster from '../images/Raster.png';
 import Train from '../images/Train.png';
 
-export default function Semana1() {
+export default function Record2() {
     return (
         <div>
             <div className="container">

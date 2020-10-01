@@ -1,8 +1,8 @@
 import React from "react";
-import Prueba_Naci from "./Nacimiento2"
+import Prueba_Naci from "./Inicio_Naci2"
 
 
-export default function Nacimiento1() {
+export default function Inicio_Naci1() {
     return (
         <>
 

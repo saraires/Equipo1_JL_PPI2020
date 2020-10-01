@@ -4,7 +4,7 @@ import Exito from '../images/Exito.png';
 import Metro from '../images/Metro.png';
 
 
-export default function Carrito() {
+export default function PreCarrito() {
   return (
     <>
       <div className="container">

@@ -3,7 +3,7 @@ import Rank from '../images/Rank.png';
 import Bolita from '../images/Bolita.png';
 
 
-export default function Semana() {
+export default function Record1() {
     return (
         <div>
             {/* Menu e inicio/saludo "Hoy recorriste" */}

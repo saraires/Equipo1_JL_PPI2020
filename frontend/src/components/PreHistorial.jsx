@@ -6,7 +6,7 @@ import Metro from '../images/Metro.png';
 import Presto from '../images/Presto.jpg';
 import Todoenartes from '../images/Todoenartes.png';
 
-export default function MenuPremios() {
+export default function PreHistorial() {
     return (
         <div>
             <div className="container shadow-lg p-3 mb-5 bg-white">

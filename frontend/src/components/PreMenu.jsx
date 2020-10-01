@@ -1,7 +1,7 @@
 import React from 'react';
 import Celeste from '../images/Celeste.jpg'
 
-export default function MenuPremios() {
+export default function PreMenu() {
     return (
         <div>
             <div>

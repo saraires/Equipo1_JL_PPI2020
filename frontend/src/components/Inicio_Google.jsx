@@ -4,7 +4,7 @@ import Celeste from "../images/Celeste.jpg";
 import Raster from "../images/Raster.png";
 
 
-export default function Inicio_sesion2() {
+export default function Inicio_Google() {
     return (
         <div>
             <div className="modal-body">

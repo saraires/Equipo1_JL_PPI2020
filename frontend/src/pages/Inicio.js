@@ -1,7 +1,7 @@
 import React from 'react';
-import Tabs from '../components/tabs';
-import Recordatorios from '../components/Recordatorios';
-import Noticias from '../components/Noticias';
+import Tabs from '../components/PrinTabs';
+import Recordatorios from '../components/PrinRecordatorios';
+import Noticias from '../components/PrinNoticias';
 import estilos from '../Styles/Styles_inicio.css';
 
 function Inicio() {
