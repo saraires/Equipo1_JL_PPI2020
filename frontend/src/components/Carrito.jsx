@@ -8,43 +8,7 @@ export default function Carrito() {
   return (
     <>
       <div className="container">
-        <nav className="navbar navbar-expand-lg navbar-light container shadow-lg p-3 mb-5" style={{ background: "#FFBA5C" }}>
-          <a className="navbar-brand text-center texto font-weight-bolder" href="#">Carrito</a>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style={{ background: "#FFBA5C" }}>
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ">
-              <br />
-              <div style={{ display: "flex", marginLeft: "10px" }}>
-                <img src={Celeste} alt="foto" className="rounded-circle" width="80px" align="left" />
-                <div style={{ marginLeft: "10px" }}>
-                  <h4>Celeste Tamayo</h4>
-                  <h4>5000 Terras</h4>
-                </div>
-              </div>
-              <br />
-              <li className="nav-item active">
-                <a className="nav-link opcio" href="#" style={{}}>Carrito y activación de cupones  <span className="sr-only">(current)</span></a>
-              </li>
-              <li className="nav-item active">
-                <a className="nav-link  opcio" href="#">Historial de terras redimidas <span className="sr-only">(current)</span></a>
-              </li>
-              <li className="nav-item active">
-                <a className="nav-link  opcio" href="#">Empresas afiliadas <span className="sr-only">(current)</span></a>
-              </li>
-
-              <div className="dropdown-divider"></div>
-
-              <li className="nav-item active">
-                <a className="nav-link  opcio" href="#">Notificaciones  <span className="sr-only">(current)</span></a>
-              </li>
-              <li className="nav-item active">
-                <a className="nav-link  opcio" href="#">Calificanos en la app <span className="sr-only">(current)</span></a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+        <MenuPremios />
       </div>
       <div className="container jumbotron jumbotron-fluid" style={{ display: "flex" }}>
         <span className="border border-dark"></span>

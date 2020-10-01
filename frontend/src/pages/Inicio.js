@@ -1,9 +1,7 @@
 import React from 'react';
 import Tabs from '../components/tabs';
-import Banner from '../components/imagen';
 import Recordatorios from '../components/Recordatorios';
 import Noticias from '../components/Noticias';
-import Boton from '../components/Bonton_c';
 import estilos from '../Styles/Styles_inicio.css';
 
 function Inicio() {
@@ -11,7 +9,7 @@ function Inicio() {
     <>
 
       <div className="container">
-        <Banner />
+        <img src={banner} class="img-fluid " alt="Responsive image"></img>
         <div class="shadow-lg p-3 mb-5 bg-white rounded">
           <br />
           <div>
@@ -19,7 +17,7 @@ function Inicio() {
             <p className="text-muted">
               <a href="#" class="text-reset font-weight-bolder">tenemos un resumen de tu día </a>
             </p>
-            <Boton />
+            <button type="button" className="btn btn-secondary float-right ubic ">Contactanos</button>
             <br />
             <hr class="solid"></hr>
           </div>

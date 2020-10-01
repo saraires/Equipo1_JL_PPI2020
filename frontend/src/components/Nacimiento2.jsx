@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Prueba_Naci() {
+export default function Nacimiento2() {
     return (
         <div>
             <center>

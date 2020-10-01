@@ -1,8 +1,8 @@
 import React from "react";
-import Prueba_Naci from "../components/Prueba_Naci"
+import Prueba_Naci from "./Nacimiento2"
 
 
-export default function Inicio_sesion() {
+export default function Nacimiento1() {
     return (
         <>
 

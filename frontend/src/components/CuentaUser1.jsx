@@ -2,7 +2,7 @@ import React from 'react';
 import FondoUser from '../images/FondoUser.jpg'
 import Celeste from '../images/Celeste.jpg'
 
-export default function InfoUser() {
+export default function CuentaUser1() {
     return (
         <>
             <div className="container">

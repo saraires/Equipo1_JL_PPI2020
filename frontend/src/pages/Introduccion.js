@@ -1,6 +1,5 @@
 import React from 'react';
 import Carrucel from '../components/Carrucel';
-import Boton from '../components/Boton';
 import estilos from '../Styles/Styles_intro.css';
 // import imagen1 from '../componets/imagenes/Intro1.jpg';
 // import imagen2 from '../componets/imagenes/Intro2.jpg';
@@ -31,7 +30,7 @@ function Introduccion() {
         }]}
         */}
 
-      <Boton />
+      <button type="button" className="btn btn-secondary  ubic " disabled>Saltar</button>
 
     </div>
   );
