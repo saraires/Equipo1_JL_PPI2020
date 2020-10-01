@@ -1,50 +1,30 @@
 import React from 'react';
-import Inicio_sesion from './Inicio_sesion';
-import Inicio_sesion2 from './Inicio_sesion2';
-import Entrar from './Entrar';
-import Registrate from './Registrate';
-import Nombre_usuario from './Nombre_usuario';
-import Nacimiento from './Nacimiento';
-import Kms_Semanales from "./Kms_Semanales";
-import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
-import Ranking from '../components/Ranking';
-import Carrito from '../components/Carrito';
+import Mapa2 from '../components/Mapa2';
+import Semana1 from '../components/Semana1';
+import Semana2 from '../components/Semana1';
+
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 
 function App() {
   return (
     <div className="App">
-      <Inicio_sesion />
-      <br />
-      <Inicio_sesion2 />
-      <br />
-      <Entrar />
-      <br />
-      <Registrate />
-      <br />
-      <Nacimiento />
-      <br />
-      <Nombre_usuario />
-      <br />
-      <Carrito />
-      <br />
-      <Ranking />
-      <br />
-      <Kms_Semanales />
+      <Mapa2/>
       <br />
 
-      {/*<BrowserRouter>
+      <Router>
         <div>
-          <Link to="/google">
-            <button>Google</button>
+          <Link to="/record">
+            <button>Kms</button>
           </Link>
         </div>
         <Switch>
-          <Route path="/google">
-            <Inicio_sesion2 />
+          <Route path="/record">
+          <Semana1/>
+          <Semana2/>
           </Route>
         </Switch>
-      </BrowserRouter> */}
+      </Router>
     </div >
   );
 }
