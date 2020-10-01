@@ -1,5 +1,5 @@
 import React from "react";
-import Prueba_Naci from "./Inicio_Naci2"
+import Prueba_Naci from "./Inicio_Naci2";
 
 
 export default function Inicio_Naci1() {

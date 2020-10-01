@@ -1,29 +1,31 @@
 import React from 'react';
-import Mapa2 from '../components/Mapa';
-import Semana1 from '../components/Semana1';
-import Semana2 from '../components/Semana1';
+import Intro from './Introduccion'
+import Inicio_Entrar from '../components/Inicio_Entrar'
+import Inicio_Google from '../components/Inicio_Google';
+import Nacimiento from './Nacimiento';
+import Inicio_NombreUser from '../components/Inicio_NombreUser';
+import Inicio from './Inicio';
+import Formulario from '../components/Formulario';
+import CuentaUsuario from './CuentaUsuario';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Nacimiento from '../components/Nacimiento1';
+
 
 
 function App() {
   return (
     <div className="App">
-      <Nacimiento/>
-      <br />
-
       <Router>
-        <div>
-          <Link to="/record">
-            <button>Kms</button>
-          </Link>
-        </div>
         <Switch>
-          <Route path="/record">
-          <Semana1/>
-          <Semana2/>
-          </Route>
+          <Route exact path="/" component={Intro}/>
+          <Route exact path="/entrar" component={Inicio_Entrar}/>
+          <Route exact path="/inicio" component={Inicio}/>
+          <Route exact path="/iniciogoogle" component={Inicio_Google}/>
+          <Route exact path="/fecha" component={Nacimiento}/>
+          <Route exact path="/nombre-usuario" component={Inicio_NombreUser}/>
+          <Route exact path="/pagina-principal" component={Inicio}/>
+          <Route exact path="/contactanos" component={Formulario}/>
+          <Route exact path="/cuenta-usuario" component={CuentaUsuario}/>
         </Switch>
       </Router>
     </div >

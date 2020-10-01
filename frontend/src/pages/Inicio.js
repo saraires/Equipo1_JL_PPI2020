@@ -2,12 +2,12 @@ import React from 'react';
 import Tabs from '../components/PrinTabs';
 import Recordatorios from '../components/PrinRecordatorios';
 import Noticias from '../components/PrinNoticias';
-import estilos from '../Styles/Styles_inicio.css';
+import banner from '../images/Fondo.png';
+import estilos from '../styles/Styles_inicio.css';
 
 function Inicio() {
   return (
     <>
-
       <div className="container">
         <img src={banner} class="img-fluid " alt="Responsive image"></img>
         <div class="shadow-lg p-3 mb-5 bg-white rounded">
