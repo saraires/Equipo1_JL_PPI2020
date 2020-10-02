@@ -11,7 +11,7 @@ function Introduccion() {
   return (
     <div>
       <Carrucel />
-      <Link to="/nombre-usuario" className="btn btn-secondary ubic ">Saltar</Link>
+      <Link to="/entrar" className="btn btn-secondary ubic ">Saltar</Link>
 
       
 

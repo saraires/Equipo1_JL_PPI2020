@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+
 import MenuPremios from "./MenuPremios.png";
 import Celeste from "../images/Celeste.jpg";
 import Exito from "../images/Exito.png";
@@ -6,8 +8,6 @@ import Frisby from "../images/Frisby.png";
 import Metro from "../images/Metro.png";
 import Presto from "../images/Presto.jpg";
 import Todoenartes from "../images/Todoenartes.png";
-
-
 
 export default function Premios() {
     return (

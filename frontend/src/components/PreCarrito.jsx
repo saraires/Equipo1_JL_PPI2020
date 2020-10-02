@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import Celeste from '../images/Celeste.jpg';
 import Exito from '../images/Exito.png';
 import Metro from '../images/Metro.png';

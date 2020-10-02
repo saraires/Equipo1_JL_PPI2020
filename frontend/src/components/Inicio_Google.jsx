@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import LogoBiciPoint from "../images/LogoBiciPoint.png";
 import Celeste from "../images/Celeste.jpg";
 import Raster from "../images/Raster.png";

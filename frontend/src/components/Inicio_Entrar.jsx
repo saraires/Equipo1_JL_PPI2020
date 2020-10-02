@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+
 import LogoBiciPoint from '../images/LogoBiciPoint.png';
 import Google_logo from '../images/Google_logo.png';
 import Facebook_logo from '../images/Facebook_logo.webp';
@@ -20,10 +22,14 @@ export default function Inicio_Entrar() {
                             <input type="password" className="form-control" id="exampleDropdownFormPassword1" placeholder="Contraseña" />
                             <center><a href="#" className="text-decoration-none">¿Olvidaste la contraseña?</a></center>
                         </div>
+                        <Link to = "/inicio">
                         <button type="button" className="btn btn-warning btn-lg btn-block">Entrar</button>
+                        </Link>
                         <br />
                         <center><h5><small className="text-muted">¿Eres un usuario nuevo?</small></h5></center>
+                        <Link to = "/registro">
                         <center><button type="button" className="btn btn-warning btn-lg">¡Regístrate aquí!</button></center>
+                        </Link>
                         <br />
                         <center><h5><small className="text-muted">O inicia sesión con tus</small></h5></center>
                         <center><h5><small className="text-muted">redes sociales</small></h5></center>
