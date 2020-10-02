@@ -27,7 +27,12 @@ function Inicio() {
           </p>
           <hr class="solid"></hr>
 
-          <Recordatorios />
+          <Recordatorios
+          
+          
+          
+          
+          />
           <p className="text-muted titulo">
             <a href="#" class="text-reset font-weight-bolder">Y noticias interesantes</a>
           </p>
