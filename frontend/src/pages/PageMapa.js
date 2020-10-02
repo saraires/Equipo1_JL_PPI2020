@@ -3,7 +3,9 @@ import Home from '../components/MenuGlobal';
 import Mapa from '../components/Mapa';
 import Buscador from '../components/Buscador';
 
+
 function PageMapa() {
+
   return (<>
     <div className="container">
       <Buscador/>
@@ -13,5 +15,7 @@ function PageMapa() {
 
   </>);
 }
+
+
 
 export default PageMapa;

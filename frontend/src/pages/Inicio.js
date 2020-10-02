@@ -37,7 +37,7 @@ function Inicio() {
             <a href="#" class="text-reset font-weight-bolder">Y noticias interesantes</a>
           </p>
           <hr class="solid"></hr>
-          <Noticias />
+          <Noticias/>
           <MenuGlobal/>
         </div>
       </div>
