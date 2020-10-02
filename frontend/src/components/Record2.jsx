@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import Bycicle from '../images/Bycicle.png';
 import Green from '../images/Green.png';
 import Icecream from '../images/Icecream.png';

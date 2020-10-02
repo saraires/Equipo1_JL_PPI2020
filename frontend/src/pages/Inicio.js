@@ -21,7 +21,7 @@ function Inicio() {
               <a href="#" class="text-reset font-weight-bolder">tenemos un resumen de tu día </a>
             </p>
             <Link to="/contactanos">
-              <button type="button" className="btn btn-secondary float-right ubic ">Contactanos</button>
+              <button type="button" className="btn btn-secondary float-right  ">Contactanos</button>
             </Link>
             <br />
             <hr class="solid"></hr>
@@ -37,7 +37,7 @@ function Inicio() {
             <a href="#" class="text-reset font-weight-bolder">Y noticias interesantes</a>
           </p>
           <hr class="solid"></hr>
-          <Noticias />
+          <Noticias/>
           <MenuGlobal/>
 
         </div>

@@ -36,8 +36,8 @@ export default function Inicio_Entrar() {
                         <br />
                         <div className="container" style={{ display: "inline-block" }}>
                             <div className="mx-auto" style={{ width: "200px" }}>
-                                <Link to = "/inicio-google">
-                                <button type="button1" className="btn btn-dark btn-sm float-right" style={{ display: "flex" }} data-toggle="modal" data-target="#exampleModal"><img src={Google_logo} alt="Logo" className="rounded mx-auto d-block" width="25px" />
+                                <Link to="/inicio-google">
+                                    <button type="button1" className="btn btn-dark btn-sm float-right" style={{ display: "flex" }} data-toggle="modal" data-target="#exampleModal"><img src={Google_logo} alt="Logo" className="rounded mx-auto d-block" width="25px" />
                                     Google
                                 </button>
                                 </Link>
@@ -53,8 +53,8 @@ export default function Inicio_Entrar() {
                                         </div>
                                     </div>
                                 </div>
+                                <button type="button" className="btn btn-dark btn-sm float-left" style={{ display: "flex" }} ><img src={Facebook_logo} alt="Logo" className="rounded mx-auto d-block" width="25px" />Facebook</button>
                             </div>
-                            <button type="button1" className="btn btn-dark btn-sm float-left" style={{ display: "flex" }} data-toggle="modal" data-target="#exampleModal"><img src={Facebook_logo} alt="Logo" className="rounded mx-auto d-block" width="25px" />Facebook</button>
                         </div>
                     </form>
                 </div>

@@ -3,7 +3,8 @@ import Home from '../components/MenuGlobal';
 import Mapa from '../components/Mapa';
 import Buscador from '../components/Buscador';
 
-function Noticias() {
+
+function mapa() {
   return (<>
     <div className="container">
 
@@ -15,4 +16,4 @@ function Noticias() {
   </>);
 }
 
-export default Noticias;
+export default mapa;
