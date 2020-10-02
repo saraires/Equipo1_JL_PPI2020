@@ -16,7 +16,7 @@ export default function PreMenu() {
                         <ul className="navbar-nav ">
                             <br />
                             <div style={{ display: "flex", marginLeft: "10px" }}>
-                                <img src={Celeste} alt="foto" className="rounded-circle" width="80px" align="left" />
+                                <img src={Celeste} alt="foto" className="rounded-circle" width="80px"  />
                                 <div style={{ marginLeft: "10px" }}>
                                     <h4>Celeste Tamayo</h4>
                                     <h4>5000 Terras</h4>

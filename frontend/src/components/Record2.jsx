@@ -14,25 +14,25 @@ export default function Record2() {
         <div>
             <div className="container">
                 <div className="card-body container shadow p-4 mb-3" style={{ color: "#47525E", display: "flex" }}>
-                    <img src={Raster} style={{ width: "90px" }} />
-                    <div style={{ textAlign: "right" }} className="col clearfix">
+                    <img src={Raster} style={{ width: "90px",  }} />
+                    <div style={{ textAlign: "right" }}  className="col clearfix">
                         <h3 className="">Lunes 27, Julio</h3>
                         <h3 className="float-right">245 Kms</h3> {/* Aquí iría una prop para determinar los kms recorridos */}
                     </div>
                 </div>
                 <div className="card-body container shadow p-4 mb-3" style={{ color: "#47525E", display: "flex" }}>
-                    <div className="col clearfix" >
+                    <div  className="col clearfix">
                         <h3>Martes 28, Julio</h3>
                         <h3>380 Kms</h3> {/* Aquí iría una prop para determinar los kms recorridos */}
                     </div>
                     <img src={Train} style={{ width: "90px", marginLeft: "40px" }} className="float-right" />
                 </div>
-            </div>
-            <div className="card-body container shadow p-4 mb-3" style={{ color: "#47525E", display: "flex" }}>
-                <img src={Bycicle} style={{ width: "90px", marginRight: "5px" }} />
-                <div style={{ textAlign: "right" }}>
-                    <h3>Miércoles 29, Julio</h3>
-                    <h3>270 Kms</h3> {/* Aquí iría una prop para determinar los kms recorridos */}
+                <div className="card-body container shadow p-4 mb-3" style={{ color: "#47525E", display: "flex" }}>
+                    <img src={Bycicle} style={{ width: "90px" }} />
+                    <div style={{ textAlign: "right" }}>
+                        <h3>Miércoles 29, Julio</h3>
+                        <h3>270 Kms</h3> {/* Aquí iría una prop para determinar los kms recorridos */}
+                    </div>
                 </div>
             </div>
             <div className="card-body container shadow p-4 mb-3" style={{ color: "#47525E", display: "flex" }}>
