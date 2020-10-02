@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import MenuPremios from './PreMenu';
 import Celeste from '../images/Celeste.jpg';
 import Exito from '../images/Exito.png';
 import Metro from '../images/Metro.png';
+import MenuGlobal from './MenuGlobal';
 
 
 export default function PreCarrito() {
@@ -42,21 +44,9 @@ export default function PreCarrito() {
             </div>
           </div>
         </div>
-
-
-
-
-
-
+        <MenuGlobal />
         {/*Esto es un comentario className, className = "container", style = {{backgroundColor: "#000000"}}*/}
-
-
       </div>
-
     </>
-
-
   );
-
-
 }

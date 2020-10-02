@@ -4,7 +4,9 @@ import Tabs from '../components/PrinTabs';
 import Recordatorios from '../components/PrinRecordatorios';
 import Noticias from '../components/PrinNoticias';
 import banner from '../images/Fondo.png';
-import estilos from '../Styles/Styles_inicio.css';
+import estilos from '../styles/Styles_inicio.css';
+import MenuGlobal from '../components/MenuGlobal';
+
 
 function Inicio() {
   return (
@@ -36,6 +38,7 @@ function Inicio() {
           </p>
           <hr class="solid"></hr>
           <Noticias />
+          <MenuGlobal/>
 
         </div>
       </div>

@@ -1,13 +1,15 @@
 import React from 'react';
-import Semana1 from '../components/Semana1';
-import Semana2 from '../components/Semana2';
+import MenuGlobal from '../components/MenuGlobal';
+import Record1 from '../components/Record1';
+import Record2 from '../components/Record2';
 
 
 export default function Kms_Semanales() {
     return (
         <div>
-            <Semana1 />
-            <Semana2 />
+            <Record1 />
+            <Record2 />
+            <MenuGlobal/>
         </div>
     );
 }

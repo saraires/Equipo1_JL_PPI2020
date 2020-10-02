@@ -1,18 +1,19 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 
-import MenuPremios from "./MenuPremios.png";
+import MenuPremios from './PreMenu';
 import Celeste from "../images/Celeste.jpg";
 import Exito from "../images/Exito.png";
 import Frisby from "../images/Frisby.png";
 import Metro from "../images/Metro.png";
 import Presto from "../images/Presto.jpg";
 import Todoenartes from "../images/Todoenartes.png";
+import MenuGlobal from "./MenuGlobal";
 
 export default function Premios() {
     return (
         <>
-        <MenuPremios/>
+            <MenuPremios />
             <div>
                 <div className="container shadow-lg p-3 mb-5 bg-white rounded">
                     <div className="card">
@@ -56,8 +57,8 @@ export default function Premios() {
                         </div>
                     </div>
                 </div>
+                <MenuGlobal />
             </div>
-
         </>
     );
 }
