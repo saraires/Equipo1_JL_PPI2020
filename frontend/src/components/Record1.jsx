@@ -12,7 +12,7 @@ export default function Record1() {
             <div className="container" >
                 {/*Inicio Menú amarillo | Componente 1*/}
                 <nav className="navbar navbar-expand-lg navbar-light container shadow-lg p-3 mb-5" style={{ background: "#FFBA5C" }}>
-                    <center><h1 className="navbar-brand text-center texto font-weight-bolder">Record Semanal</h1></center>
+                    <h1 className="navbar-brand text-center font-weight-bolder">Record Semanal</h1>
                     <img src={Rank} className="float-right" style={{ width: "2rem" }} />
                 </nav>
                 {/*Fin Menú amarillo | Componente 1*/}

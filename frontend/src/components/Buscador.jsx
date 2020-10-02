@@ -9,10 +9,15 @@ class Buscador extends Component {
 
     render() {
         return (<>
-            
+            <form action="../../form-result.php" method="post" target="_blank">
 
+                <input type="search" name="" placeholder="Buscar" />
 
+                    <input type="submit" value="Buscar" />
+
+                    
+            </form>
         </>)
     }
 }
-export default Buscador ;
+export default Buscador;

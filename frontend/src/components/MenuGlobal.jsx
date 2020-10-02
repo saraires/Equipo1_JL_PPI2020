@@ -13,7 +13,7 @@ export default function MenuGlobal() {
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
-                            <Router>
+                           
                             <li className="nav-item active">
                                 <Link to="/mapa" className="nav-link" href="#">Mapa<span className="sr-only">(current)</span></Link>
                             </li>  
@@ -29,7 +29,7 @@ export default function MenuGlobal() {
                             <li className="nav-item active">
                                 <Link to="perfil" className="nav-link" href="#">Perfil<span className="sr-only">(current)</span></Link>
                             </li>    
-                            </Router>        
+                                   
                         </ul>
                     </div>
                 </nav>
