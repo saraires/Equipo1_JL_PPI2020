@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Celeste from '../images/Celeste.jpg';
+import MenuGlobal from './MenuGlobal';
 
 
 
@@ -90,6 +91,7 @@ export default function Ranking() {
                     </tbody>
                 </table>
             </div>
+            <MenuGlobal/>
         </div>
     );
 }

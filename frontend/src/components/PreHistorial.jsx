@@ -7,6 +7,7 @@ import Frisby from '../images/Frisby.png';
 import Metro from '../images/Metro.png';
 import Presto from '../images/Presto.jpg';
 import Todoenartes from '../images/Todoenartes.png';
+import MenuGlobal from './MenuGlobal';
 
 export default function PreHistorial() {
     return (
@@ -58,6 +59,7 @@ export default function PreHistorial() {
                     </div>
                 </div>
             </div>
+            <MenuGlobal/>
         </div>
     );
 }

@@ -1,13 +1,15 @@
 import React from 'react';
 import Home from '../components/PreMenu';
 import Icon_E from '../components/PreEmpresas';
-import estilos from '../Styles/Styles_Empre.css';
+import estilos from '../styles/Styles_Empre.css';
 import imag1 from '../images/Frisby.png';
-import imag2 from '../images/Todoenartes_2 .png';
+import imag2 from '../images/Todoenartes.png';
 import imag3 from '../images/Metro.png';
 import imag4 from '../images/Exito.png';
 import imag5 from '../images/Presto.jpg';
 import imag6 from '../images/Encicla.png';
+import MenuGlobal from '../components/MenuGlobal';
+
 function Noticias() {
   return (<>
 
@@ -50,6 +52,7 @@ function Noticias() {
 
 
       ]} />
+      <MenuGlobal/>
 
     </div>
   </>);

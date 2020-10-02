@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 
 import Fondo from "../images/Fondo.png";
+import MenuGlobal from "./MenuGlobal";
 
 export default function Formulario() {
   return (
@@ -39,6 +40,7 @@ export default function Formulario() {
           </div>
           <br />
         </form>
+        <MenuGlobal/>
       </div>
     </>
   );

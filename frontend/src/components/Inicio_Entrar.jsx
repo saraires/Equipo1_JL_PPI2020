@@ -36,10 +36,11 @@ export default function Inicio_Entrar() {
                         <br />
                         <div className="container" style={{ display: "inline-block" }}>
                             <div className="mx-auto" style={{ width: "200px" }}>
-
+                                <Link to = "/inicio-google">
                                 <button type="button1" className="btn btn-dark btn-sm float-right" style={{ display: "flex" }} data-toggle="modal" data-target="#exampleModal"><img src={Google_logo} alt="Logo" className="rounded mx-auto d-block" width="25px" />
                                     Google
                                 </button>
+                                </Link>
                                 <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div className="modal-dialog modal-dialog-centered">
                                         <div className="modal-content">
