@@ -22,13 +22,13 @@ export default function Inicio_Entrar() {
                             <input type="password" className="form-control" id="exampleDropdownFormPassword1" placeholder="Contraseña" />
                             <center><a href="#" className="text-decoration-none">¿Olvidaste la contraseña?</a></center>
                         </div>
-                        <Link to = "/inicio">
-                        <button type="button" className="btn btn-warning btn-lg btn-block">Entrar</button>
+                        <Link to="/inicio">
+                            <button type="button" className="btn btn-warning btn-lg btn-block">Entrar</button>
                         </Link>
                         <br />
                         <center><h5><small className="text-muted">¿Eres un usuario nuevo?</small></h5></center>
-                        <Link to = "/registro">
-                        <center><button type="button" className="btn btn-warning btn-lg">¡Regístrate aquí!</button></center>
+                        <Link to="/registro">
+                            <center><button type="button" className="btn btn-warning btn-lg">¡Regístrate aquí!</button></center>
                         </Link>
                         <br />
                         <center><h5><small className="text-muted">O inicia sesión con tus</small></h5></center>
@@ -36,25 +36,13 @@ export default function Inicio_Entrar() {
                         <br />
                         <div className="container" style={{ display: "inline-block" }}>
                             <div className="mx-auto" style={{ width: "200px" }}>
-                                <Link to = "/inicio-google">
-                                <button type="button1" className="btn btn-dark btn-sm float-right" style={{ display: "flex" }} data-toggle="modal" data-target="#exampleModal"><img src={Google_logo} alt="Logo" className="rounded mx-auto d-block" width="25px" />
+                                <Link to="/inicio-google">
+                                    <button type="button1" className="btn btn-dark btn-sm float-right" style={{ display: "flex" }} data-toggle="modal" data-target="#exampleModal"><img src={Google_logo} alt="Logo" className="rounded mx-auto d-block" width="25px" />
                                     Google
                                 </button>
                                 </Link>
-                                <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div className="modal-dialog modal-dialog-centered">
-                                        <div className="modal-content">
-                                            <div className="modal-header">
-                                                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <Inicio_Google />
-                                        </div>
-                                    </div>
-                                </div>
+                                <button type="button" className="btn btn-dark btn-sm float-left" style={{ display: "flex" }} ><img src={Facebook_logo} alt="Logo" className="rounded mx-auto d-block" width="25px" />Facebook</button>
                             </div>
-                            <button type="button1" className="btn btn-dark btn-sm float-left" style={{ display: "flex" }} data-toggle="modal" data-target="#exampleModal"><img src={Facebook_logo} alt="Logo" className="rounded mx-auto d-block" width="25px" />Facebook</button>
                         </div>
                     </form>
                 </div>

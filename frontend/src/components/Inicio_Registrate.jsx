@@ -53,14 +53,12 @@ export default function Inicio_Registrate() {
                                                     <span aria-hidden="true">&times;</span>
                                                 </button>
                                             </div>
-                                            <Inicio_Google />
                                         </div>
                                     </div>
                                 </div>
                                 <button type="button" className="btn btn-dark btn-sm float-left" style={{ display: "flex" }} ><img src={Facebook_logo} alt="Logo" className="rounded mx-auto d-block" width="25px" />Facebook</button>
-                            </div></div>
-
-
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
