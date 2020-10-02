@@ -8,7 +8,7 @@ export default function PreMenu() {
         <div>
             <div>
                 <nav className="navbar navbar-expand-lg navbar-light container shadow-lg p-3 mb-5" style={{ background: "#FFBA5C" }}>
-                    <a className="navbar-brand text-center texto font-weight-bolder" href="#">Convenios</a>
+                    <a className="navbar-brand text-center font-weight-bolder" href="#">Convenios</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style={{ background: "#FFBA5C" }}>
                         <span className="navbar-toggler-icon"></span>
                     </button>

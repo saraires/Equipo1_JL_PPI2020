@@ -15,7 +15,8 @@ export default function Ranking() {
                         <a className="navbar-brand text-center texto font-weight-bolder" href="#">Ranking Semanal</a>
                     </nav>
                 </div>
-                <div align="center"><img src={Celeste} alt="foto" className="rounded-circle" width="120px"  ></img></div>
+                
+                <div align="center"><Link to ="/ranking"><img src={Celeste} alt="foto" className="rounded-circle" width="120px"></img></Link></div>
                 <h1 align="center">Celeste  Tamayo</h1>
 
                 <table className="table table-striped">

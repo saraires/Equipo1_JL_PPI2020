@@ -6,7 +6,7 @@ import Record2 from '../components/Record2';
 
 export default function Kms_Semanales() {
     return (
-        <div>
+        <div className = "container">
             <Record1 />
             <Record2 />
             <MenuGlobal/>
