@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from '../src/pages/Inicio';
+import App from '../src/pages/App';
 //Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 //JQuery

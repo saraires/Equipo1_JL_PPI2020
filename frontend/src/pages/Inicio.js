@@ -1,11 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import Tabs from '../components/PrinTabs';
 import Recordatorios from '../components/PrinRecordatorios';
 import Noticias from '../components/PrinNoticias';
 import banner from '../images/Fondo.png';
-import estilos from '../styles/Styles_inicio.css';
+import estilos from '../Styles/Styles_inicio.css';
 
 function Inicio() {
   return (
@@ -31,12 +30,7 @@ function Inicio() {
           </p>
           <hr class="solid"></hr>
 
-          <Recordatorios
-          
-          
-          
-          
-          />
+          <Recordatorios/>
           <p className="text-muted titulo">
             <a href="#" class="text-reset font-weight-bolder">Y noticias interesantes</a>
           </p>
