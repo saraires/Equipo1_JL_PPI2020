@@ -10,7 +10,7 @@ import Inicio from './Inicio';
 import Formulario from '../components/Formulario';
 import CuentaUsuario from './CuentaUsuario';
 import Kms_Semanales from './Kms_Semanales';
-import Mapa from '../pages/Mapa';
+import Mapa from './PageMapa';
 import Premios from '../components/Premios';
 import PreCarrito from '../components/PreCarrito';
 import PreHistorial from '../components/PreHistorial';

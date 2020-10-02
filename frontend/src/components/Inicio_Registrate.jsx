@@ -53,7 +53,6 @@ export default function Inicio_Registrate() {
                                                     <span aria-hidden="true">&times;</span>
                                                 </button>
                                             </div>
-                                            <Inicio_Google />
                                         </div>
                                     </div>
                                 </div>
