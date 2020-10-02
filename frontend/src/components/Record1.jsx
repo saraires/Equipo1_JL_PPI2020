@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import Rank from '../images/Rank.png';
 import Bolita from '../images/Bolita.png';
 

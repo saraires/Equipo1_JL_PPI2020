@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 export default function CuentaUser2() {
     return (
@@ -76,11 +78,13 @@ export default function CuentaUser2() {
                                     </h2>
                                 </div>
                                 <div className="card-header" id="headingThree">
+                                    <Link to = "/entrar">
                                     <h2 className="mb-0">
                                         <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                             Cerrar Sesión
-                                    </button>
+                                        </button>
                                     </h2>
+                                    </Link>
                                 </div>
                                 <div className="card">
                                     <div className="card-header" id="headingThree">

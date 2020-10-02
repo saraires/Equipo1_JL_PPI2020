@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+
 import LogoBiciPoint from '../images/LogoBiciPoint.png';
 import Google_logo from '../images/Google_logo.png';
 import Facebook_logo from '../images/Facebook_logo.webp';
@@ -23,8 +25,9 @@ export default function Inicio_Registrate() {
                             <label for="exampleDropdownFormPassword1"></label>
                             <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Contraseña" />
                         </div>
-
-                        <button type="button" className="btn btn-warning btn-lg btn-block">Crear cuenta</button>
+                        <Link to="/inicio">
+                            <button type="button" className="btn btn-warning btn-lg btn-block">Crear cuenta</button>
+                        </Link>
                         <br />
                         <div class="form-check"><center>
                             <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
@@ -48,7 +51,7 @@ export default function Inicio_Registrate() {
                                                     <span aria-hidden="true">&times;</span>
                                                 </button>
                                             </div>
-                                            <Inicio_Google/>
+                                            <Inicio_Google />
                                         </div>
                                     </div>
                                 </div>

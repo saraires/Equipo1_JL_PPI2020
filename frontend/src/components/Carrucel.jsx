@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
+
 import imagen1 from '../images/Intro1.jpg';
 import imagen2 from '../images/Intro2.jpg';
 import imagen3 from '../images/Intro3.jpg';

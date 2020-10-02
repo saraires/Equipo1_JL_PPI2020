@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+
 import LogoBiciPoint from '../images/LogoBiciPoint.png';
 import Google_logo from '../images/Google_logo.png';
 import Facebook_logo from '../images/Facebook_logo.webp';

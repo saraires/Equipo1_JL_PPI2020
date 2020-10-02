@@ -1,15 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Carrucel from '../components/Carrucel';
-import estilos from '../Styles/Styles_intro.css';
+import estilos from '../styles/Styles_intro.css';
 // import imagen1 from '../componets/imagenes/Intro1.jpg';
 // import imagen2 from '../componets/imagenes/Intro2.jpg';
 // import imagen3 from '../componets/imagenes/Intro3.jpg';
+
 
 function Introduccion() {
   return (
     <div>
       <Carrucel />
-      <button type="button" className="btn btn-secondary  ubic " disabled>Saltar</button>
+      <Link to="/entrar" className="btn btn-secondary ubic ">Saltar</Link>
+
+      
 
        {/*
         Imagenes={[
