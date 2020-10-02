@@ -12,7 +12,7 @@ import MenuGlobal from './MenuGlobal';
 export default function PreHistorial() {
     return (
         <div>
-            <div className="container shadow-lg p-3 mb-5 bg-white">
+            <div className="container shadow-lg p-3 mb-5 bg-white pb-5">
                 <div className="card">
                     <div className="card-body" style={{ display: "flex" }}>
                         <img src={Metro} className="card-img-top rounded" href="#list-home" style={{ width: "80px" }} alt="Portada" />

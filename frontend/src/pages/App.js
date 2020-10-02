@@ -13,7 +13,7 @@ import Kms_Semanales from './Kms_Semanales';
 import Mapa from './PageMapa';
 import Premios from '../components/Premios';
 import PreCarrito from '../components/PreCarrito';
-import PreHistorial from '../components/PreHistorial';
+import Historial from './Historial';
 import Empresas from './Empresas';
 import RecordRanking from '../components/RecordRanking';
 import Inicio_Sesion from '../components/Inicio_Sesion';
@@ -49,7 +49,7 @@ function App() {
           {/*Premios y lo demás*/}
           <Route exact path="/premios" component={Premios} />
           <Route exact path="/carrito" component={PreCarrito} />
-          <Route exact path="/historial" component={PreHistorial} />
+          <Route exact path="/historial" component={Historial} />
           <Route exact path="/convenios" component={Empresas} />
 
           {/*Kms semanales y ranking*/}

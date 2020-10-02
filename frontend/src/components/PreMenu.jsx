@@ -24,13 +24,13 @@ export default function PreMenu() {
                             </div>
                             <br />
                             <li className="nav-item active">
-                                <a className="nav-link opcio" href="#" style={{}}>Carrito y activación de cupones  <span className="sr-only">(current)</span></a>
+                                <Link to = "/carrito" className="nav-link opcio" href="#" style={{}}>Carrito y activación de cupones  <span className="sr-only">(current)</span></Link>
                             </li>
                             <li className="nav-item active">
-                                <a className="nav-link  opcio" href="#">Historial de terras redimidas <span className="sr-only">(current)</span></a>
+                                <Link to = "/historial" className="nav-link  opcio" href="#">Historial de terras redimidas <span className="sr-only">(current)</span></Link>
                             </li>
                             <li className="nav-item active">
-                                <a className="nav-link  opcio" href="#">Empresas afiliadas <span className="sr-only">(current)</span></a>
+                                <Link to = "/convenios" className="nav-link  opcio" href="#">Empresas afiliadas <span className="sr-only">(current)</span></Link>
                             </li>
 
                             <div className="dropdown-divider"></div>

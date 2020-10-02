@@ -11,7 +11,7 @@ import MenuGlobal from './MenuGlobal';
 export default function PreCarrito() {
   return (
     <>
-      <div className="container">
+      <div className="container pb-5">
         <MenuPremios />
       </div>
       <div className="container jumbotron jumbotron-fluid" style={{ display: "flex" }}>

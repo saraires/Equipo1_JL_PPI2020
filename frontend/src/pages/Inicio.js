@@ -11,7 +11,7 @@ import MenuGlobal from '../components/MenuGlobal';
 function Inicio() {
   return (
     <>
-      <div className="container">
+      <div className="container pb-5">
         <img src={banner} class="img-fluid " alt="Responsive image"></img>
         <div class="shadow-lg p-3 mb-5 bg-white rounded">
           <br />
@@ -21,7 +21,7 @@ function Inicio() {
               <a href="#" class="text-reset font-weight-bolder">tenemos un resumen de tu día </a>
             </p>
             <Link to="/contactanos">
-              <button type="button" className="btn btn-secondary float-right ubic ">Contactanos</button>
+              <button type="button" className="btn btn-secondary float-right">Contáctanos</button>
             </Link>
             <br />
             <hr class="solid"></hr>
@@ -39,7 +39,6 @@ function Inicio() {
           <hr class="solid"></hr>
           <Noticias />
           <MenuGlobal/>
-
         </div>
       </div>
 

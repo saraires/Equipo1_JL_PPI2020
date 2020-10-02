@@ -1,10 +1,10 @@
 import React from 'react';
-import Historial from '../components/Historial';
+import Historial from '../components/PreHistorial';
 import MenuGlobal from '../components/MenuGlobal';
-import MenuPremios from '../components/MenuPremios';
+import MenuPremios from '../components/PreMenu';
 
 
-export default function Historial() {
+export default function PHistorial() {
     return (
         <div>
             <MenuPremios />

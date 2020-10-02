@@ -22,7 +22,7 @@ class Carrucel extends Component {
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol> */}
 
-                    <div className="carousel-inner ">
+                    <div className="shadow p-4 mb-3 carousel-inner ">
 
                         <div className="carousel-item active">
                             <img src={imagen1} className="d-block  " style={{ width: "15rem", text: 'center' }} alt="..." />

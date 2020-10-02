@@ -6,6 +6,7 @@ import Buscador from '../components/Buscador';
 function PageMapa() {
   return (<>
     <div className="container">
+      <Buscador/>
       <Mapa />
       <Home />
     </div>

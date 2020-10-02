@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function CuentaUser2() {
     return (
         <div>
-            <div className="container">
+            <div className="container pb-5">
                 <div className="accordion shadow-lg p-3 mb-5 bg-white rounded" id="accordionExample">
                     <div className="card">
                         <div className="card-header" id="headingOne">
@@ -36,11 +36,11 @@ export default function CuentaUser2() {
                     <div className="card">
                         <div className="card-header" id="headingTwo">
                             <h2 className="mb-0">
-                                <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <button className="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     Notificaciones </button>
                             </h2>
                         </div>
-                        <div id="collapseTwo" className="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                             <div className="card-body">
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item">Frecuencia</li>

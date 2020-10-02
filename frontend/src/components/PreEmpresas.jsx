@@ -10,7 +10,7 @@ class IconE extends Component {
     render() {
         return (
             <div >
-                <div class="container order">
+                <div class="container order pb-5">
                     <br />
                     {this.props.Empresas.map((item, index) => {
                         return (

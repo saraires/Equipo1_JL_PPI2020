@@ -15,7 +15,7 @@ function Noticias() {
 
 
     <Home />
-    <div className="container shadow-lg p-3 mb-5 bg-white rounded">
+    <div className="container shadow-lg p-3 mb-5 bg-white rounded pb-5">
       <br />
 
       <Icon_E Empresas={[
