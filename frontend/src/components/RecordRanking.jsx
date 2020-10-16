@@ -11,8 +11,8 @@ export default function Ranking() {
         <div>
             <div className="container">
                 <div>
-                    <nav className="navbar navbar-expand-lg navbar-light shadow-lg p-3 mb-5" style={{ background: "#FFBA5C" }}>
-                        <a className="navbar-brand text-center texto font-weight-bolder" href="#">Ranking Semanal</a>
+                    <nav className="navbar navbar-expand-lg navbar-light container shadow-lg p-3 mb-5" style={{ background: "#FFBA5C" }}>
+                        <a className="navbar-brand text-center font-weight-bolder" href="#">Ranking Semanal</a>
                     </nav>
                 </div>
                 
