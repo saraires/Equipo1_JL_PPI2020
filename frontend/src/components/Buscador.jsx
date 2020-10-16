@@ -19,7 +19,6 @@ class Buscador extends Component {
                         <div className="searchbar">
                             <input className="search_input" type="text" name="" placeholder="¿A dónde quieres ir?" />
                             <a href="#" className="search_icon"><i class="fas fa-search"></i></a>
-                            <p></p>
                         </div>
                     </div>
                 </div>
