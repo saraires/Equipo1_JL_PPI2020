@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import "../styles/stylesInicio.css"
+
 import Tabs from '../components/PrinTabs';
 import Recordatorios from '../components/PrinRecordatorios';
 import Noticias from '../components/PrinNoticias';

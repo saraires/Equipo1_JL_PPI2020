@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "../styles/stylesInicio.css"
 
 import imagen1 from '../images/Intro1.jpg';
 import imagen2 from '../images/Intro2.jpg';

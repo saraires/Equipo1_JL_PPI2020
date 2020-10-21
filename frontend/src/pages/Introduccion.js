@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import "../styles/stylesIntro.css"
+
 import Carrucel from '../components/Carrucel';
 
 // import imagen1 from '../componets/imagenes/Intro1.jpg';
