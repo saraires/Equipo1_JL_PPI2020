@@ -1,7 +1,6 @@
 import React from 'react';
 import Home from '../components/PreMenu';
 import Icon_E from '../components/PreEmpresas';
-import estilos from '../styles/Styles_Empre.css';
 import imag1 from '../images/Frisby.png';
 import imag2 from '../images/Todoenartes.png';
 import imag3 from '../images/Metro.png';

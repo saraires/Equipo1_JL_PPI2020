@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
 
-import '../styles/Styles_Buscador.css';
-
-
 class Buscador extends Component {
     constructor(props) {
         super(props);
