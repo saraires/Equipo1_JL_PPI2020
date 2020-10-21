@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Carrucel from '../components/Carrucel';
-import estilos from '../styles/Styles_intro.css';
+import '../styles/Styles_intro.css';
 // import imagen1 from '../componets/imagenes/Intro1.jpg';
 // import imagen2 from '../componets/imagenes/Intro2.jpg';
 // import imagen3 from '../componets/imagenes/Intro3.jpg';
