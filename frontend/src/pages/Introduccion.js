@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/stylesintro.css'
+import '../styles/styles.css'
 
 import Carrucel from '../components/Carrucel';
 
@@ -13,7 +13,7 @@ function Introduccion() {
   return (
     <div>
       <Carrucel />
-      <Link to="/entrar" className="btn btn-secondary ubic ">Saltar</Link>
+      <Link to="/entrar" className="btn btn-secondary">Saltar</Link>
 
        {/*
         Imagenes={[

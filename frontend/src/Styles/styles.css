@@ -7,9 +7,139 @@ margin: 5px;
     border-top: 1px solid rgb(3, 3, 3);
   }
 
+.solid2 {
+    border-top: 1px solid #bbb;
+  }
+
  .opcio{
 background-color: #F8A636;
 border-radius: 8px;
 margin: 5px;
 text-align: center; 
  }
+
+/* StylesBuscador */
+
+
+body,html{
+  height: 100%;
+  width: 100%; 
+  margin: 0;
+  padding: 0;
+  }
+
+  .searchbar{
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color: #FFBA5C;
+  border-radius: 30px;
+  padding: 10px;
+  }
+
+  .search_input{
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_input{
+  padding: 0 10px;
+  width: 300px;
+  caret-color:#353b48;
+  transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_icon{
+  background: white;
+  color: #353b48;
+  }
+
+  .search_icon{
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:white;
+  text-decoration:none;
+  }
+
+  /* StylesEmpre */
+
+  .color_nav{
+    background-color:#FFBA5C ;
+}
+.order{
+    display:flex;
+    
+}
+
+ .mar{
+    margin: 8px;
+ }
+
+ /* StylesInicio */
+
+ .entorno_Tabs{
+  margin: 0px;
+  
+  }
+  .entorno_in{
+  margin: 10px;
+  
+  }
+  .color_tabs{
+  
+      background-color:#F7AA2A;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+  }
+  .color_contenido{
+  
+      background-color: #FAC52D;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+      border-top-right-radius: 8px;
+      height: 200px;
+     
+  }
+  .centro{
+  
+  display: flex;
+  align-items: center;
+    
+  }
+
+  .titulo{
+      margin-top:10px;
+  }
+  
+  .fondo {
+  border-radius: 8px;
+  height: 20rem;
+  width: 80%;
+  
+  }
+  .ubic{
+  
+      margin-right:10px ;
+  }
+
+  /* StylesIntro */
+
+  .entorno{
+    display:block;
+    margin: 20px 50px 0px 50px;
+    }
+    .texto{
+    margin: 5vh;
+    }
+    

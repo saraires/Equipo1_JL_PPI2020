@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "../styles/stylesinicio.css"
+import "../styles/styles.css"
 
 import Tabs from '../components/PrinTabs';
 import Recordatorios from '../components/PrinRecordatorios';
@@ -25,19 +25,19 @@ function Inicio() {
               <button type="button" className="btn btn-secondary float-right">Contáctanos</button>
             </Link>
             <br />
-            <hr className="solid"></hr>
+            <hr className="solid2"></hr>
           </div>
           <Tabs />
           <p className="text-muted titulo">
             <a href="" className="text-reset font-weight-bolder">Recordatorios</a>
           </p>
-          <hr className="solid"></hr>
+          <hr className="solid2"></hr>
 
           <Recordatorios/>
           <p className="text-muted titulo">
             <a href="" className="text-reset font-weight-bolder">Y noticias interesantes</a>
           </p>
-          <hr className="solid"></hr>
+          <hr className="solid2"></hr>
           <Noticias/>
           <MenuGlobal/>
         </div>
