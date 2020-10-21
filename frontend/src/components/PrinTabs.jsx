@@ -9,14 +9,14 @@ class Tabs extends Component {
 
     render() {
         return (<div className="entorno_Tabs  ">
-            <ul className="nav nav-tabs " id="myTab" role="tablist ">
-                <li className="nav-item color_tabs" role="presentation">
+            <ul className="nav nav-tabs " id="myTab">
+                <li className="nav-item color_tabs">
                     <a className="nav-link  text-white active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Km</a>
                 </li>
-                <li className="nav-item color_tabs" role="presentation">
+                <li className="nav-item color_tabs">
                     <a className="nav-link text-white" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Terras</a>
                 </li>
-                <li className="nav-item color_tabs" role="presentation">
+                <li className="nav-item color_tabs">
                     <a className="nav-link text-white" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">EnCicla</a>
                 </li>
             </ul>

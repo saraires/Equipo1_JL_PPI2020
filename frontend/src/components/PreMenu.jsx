@@ -8,7 +8,7 @@ export default function PreMenu() {
         <div>
             <div>
                 <nav className="navbar navbar-expand-lg navbar-light container shadow-lg p-3 mb-5" style={{ background: "#FFBA5C" }}>
-                    <a className="navbar-brand text-center font-weight-bolder" href="#">Convenios</a>
+                    <a className="navbar-brand text-center font-weight-bolder" href="">Convenios</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style={{ background: "#FFBA5C" }}>
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -24,22 +24,22 @@ export default function PreMenu() {
                             </div>
                             <br />
                             <li className="nav-item active">
-                                <Link to = "/carrito" className="nav-link opcio" href="#" style={{}}>Carrito y activación de cupones  <span className="sr-only">(current)</span></Link>
+                                <Link to = "/carrito" className="nav-link opcio" href="" style={{}}>Carrito y activación de cupones  <span className="sr-only">(current)</span></Link>
                             </li>
                             <li className="nav-item active">
-                                <Link to = "/historial" className="nav-link  opcio" href="#">Historial de terras redimidas <span className="sr-only">(current)</span></Link>
+                                <Link to = "/historial" className="nav-link  opcio" href="">Historial de terras redimidas <span className="sr-only">(current)</span></Link>
                             </li>
                             <li className="nav-item active">
-                                <Link to = "/convenios" className="nav-link  opcio" href="#">Empresas afiliadas <span className="sr-only">(current)</span></Link>
+                                <Link to = "/convenios" className="nav-link  opcio" href="">Empresas afiliadas <span className="sr-only">(current)</span></Link>
                             </li>
 
                             <div className="dropdown-divider"></div>
 
                             <li className="nav-item active">
-                                <a className="nav-link  opcio" href="#">Notificaciones  <span className="sr-only">(current)</span></a>
+                                <a className="nav-link  opcio" href="">Notificaciones  <span className="sr-only">(current)</span></a>
                             </li>
                             <li className="nav-item active">
-                                <a className="nav-link  opcio" href="#">Calificanos en la app <span className="sr-only">(current)</span></a>
+                                <a className="nav-link  opcio" href="">Calificanos en la app <span className="sr-only">(current)</span></a>
                             </li>
                         </ul>
                     </div>

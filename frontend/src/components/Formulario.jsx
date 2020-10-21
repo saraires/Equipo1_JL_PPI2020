@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 
 import Fondo from "../images/Fondo.png";
 import MenuGlobal from "./MenuGlobal";
@@ -10,7 +9,7 @@ export default function Formulario() {
       <div className="container">
         <form>
           <div className="shadow-lg p-3 mb-5 bg-white rounded">
-            <img src={Fondo} className="card-img-top" />
+            <img src={Fondo} alt="" className="card-img-top" />
             <br />
             <h1><center>Contáctanos</center></h1>
             <p><center>Aquí puedes mandarnos todas tus preguntas, quejas, surgerencias, reclamos o felicitaciones</center></p>

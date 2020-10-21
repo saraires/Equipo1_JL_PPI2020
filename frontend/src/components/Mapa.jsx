@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import MenuGlobal from './MenuGlobal';
 
 export default function Mapa() {
     return (

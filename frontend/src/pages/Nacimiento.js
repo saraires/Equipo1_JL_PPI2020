@@ -1,6 +1,6 @@
 import React from 'react';
-import Naci1 from '../components/Inicio_Naci1';
-import Naci2 from '../components/Inicio_Naci2';
+import Naci1 from '../components/InicioNaci1';
+import Naci2 from '../components/InicioNaci2';
 
 
 export default function Nacimiento(){

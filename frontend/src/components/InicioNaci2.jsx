@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-export default function Inicio_Naci2() {
+export default function InicioNaci2() {
     return (
         <div>
             <center>

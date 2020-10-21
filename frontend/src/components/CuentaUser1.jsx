@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import FondoUser from '../images/FondoUser.jpg'
 import Celeste from '../images/Celeste.jpg'

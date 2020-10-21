@@ -14,7 +14,7 @@ export default function Record1() {
                 <nav className="navbar navbar-expand-lg navbar-light container shadow-lg p-3 mb-5" style={{ background: "#FFBA5C" }}>
                     <center><h1 className="navbar-brand text-center font-weight-bolder">Record Semanal</h1></center>
                     <Link to = "/ranking">
-                    <img src={Rank} className="float-right" style={{ width: "2rem" }} />
+                        <img src={Rank} className="float-right" alt="" style={{width: "2rem"}} />
                     </Link>
                 </nav>
                 {/*Fin Menú amarillo | Componente 1*/}

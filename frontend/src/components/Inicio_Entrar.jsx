@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import LogoBiciPoint from '../images/LogoBiciPoint.png';
 import Google_logo from '../images/Google_logo.png';
 import Facebook_logo from '../images/Facebook_logo.webp';
-import Inicio_Google from './Inicio_Google';
 
 export default function Inicio_Entrar() {
     return (
@@ -20,7 +19,7 @@ export default function Inicio_Entrar() {
                             <input type="email" className="form-control" id="exampleDropdownFormEmail1" placeholder="Correo electrónico o nombre de usuario" />
                             <label for="exampleDropdownFormPassword1"></label>
                             <input type="password" className="form-control" id="exampleDropdownFormPassword1" placeholder="Contraseña" />
-                            <center><a href="#" className="text-decoration-none">¿Olvidaste la contraseña?</a></center>
+                            <center><a href="" className="text-decoration-none">¿Olvidaste la contraseña?</a></center>
                         </div>
                         <Link to="/inicio">
                             <button type="button" className="btn btn-warning btn-lg btn-block">Entrar</button>
