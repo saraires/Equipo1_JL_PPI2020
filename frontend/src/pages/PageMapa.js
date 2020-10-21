@@ -11,8 +11,8 @@ function PageMapa() {
       <Buscador/>
       <Mapa />
       <Home />
+      <p></p>
     </div>
-
   </>);
 }
 
