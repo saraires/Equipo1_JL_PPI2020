@@ -19,7 +19,7 @@ export default function CuentaUser1() {
                         <h5 className="card-text"><strong>Mis estadísticas</strong></h5>
                         <p style={{ display: "inline" }}>Kms Recorridos: {/*Aquí iria una prop.*/}null</p>
                         <p style={{ display: "inline", marginLeft: "70px" }}>Terras: {/*Aquí iria una prop.*/} null</p>
-                        <div class="dropdown-divider"></div>
+                        <div className="dropdown-divider"></div>
                         <br />
                         <h5 className="card-text"><strong>Actividad semanal</strong></h5>
                     </div>

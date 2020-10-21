@@ -9,7 +9,7 @@ export default function Formulario() {
     <>
       <div className="container">
         <form>
-          <div class="shadow-lg p-3 mb-5 bg-white rounded">
+          <div className="shadow-lg p-3 mb-5 bg-white rounded">
             <img src={Fondo} className="card-img-top" />
             <br />
             <h1><center>Contáctanos</center></h1>
@@ -23,20 +23,20 @@ export default function Formulario() {
               <input type="email" className="form-control" />
               <small id="emailHelp" className="form-text text-muted">Su correo electrónico no será compartido con nadie más.</small>
             </div>
-            <div class="form-group">
+            <div className="form-group">
               <label for="exampleFormControlTextarea1">Escribe aquí tu mensaje</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-            <div class="form-group">
+            <div className="form-group">
               <label for="exampleFormControlFile1">Adjunta un archivo</label>
-              <input type="file" class="form-control-file" id="exampleFormControlFile1" />
+              <input type="file" className="form-control-file" id="exampleFormControlFile1" />
             </div>
-            <div class="custom-control custom-switch">
-              <input type="checkbox" class="custom-control-input" id="customSwitch1" />
-              <label class="custom-control-label" for="customSwitch1">Estoy de acuerdo con los términos y condiciones</label>
+            <div className="custom-control custom-switch">
+              <input type="checkbox" className="custom-control-input" id="customSwitch1" />
+              <label className="custom-control-label" for="customSwitch1">Estoy de acuerdo con los términos y condiciones</label>
             </div>
             <br />
-            <button type="submit" className="btn btn-warning">Enviar</button>
+            <button type="submit" classNameName="btn btn-warning">Enviar</button>
           </div>
           <br />
         </form>

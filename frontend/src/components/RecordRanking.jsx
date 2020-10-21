@@ -16,7 +16,7 @@ export default function Ranking() {
                     </nav>
                 </div>
                 
-                <div align="center"><Link to ="/ranking"><img src={Celeste} alt="foto" className="rounded-circle" width="120px"></img></Link></div>
+                <div align="center"><Link to ="/ranking"><img src={Celeste} alt="foto" className="rounded-circle" width="120px"/></Link></div>
                 <h1 align="center">Celeste  Tamayo</h1>
 
                 <table className="table table-striped">

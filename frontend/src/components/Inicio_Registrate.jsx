@@ -17,23 +17,23 @@ export default function Inicio_Registrate() {
                         <img src={LogoBiciPoint} alt="Logo" className="rounded mx-auto d-block" width="97px" />
                         <center><h2>Regístrate</h2></center>
 
-                        <div class="form-group">
+                        <div className="form-group">
                             <label for="exampleDropdownFormName1"></label>
-                            <input type="name" class="form-control" id="exampleDropdownFormName1" placeholder="Nombre completo" />
+                            <input type="name" className="form-control" id="exampleDropdownFormName1" placeholder="Nombre completo" />
                             <label for="exampleDropdownFormEmail1"></label>
-                            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="Correo electrónico" />
+                            <input type="email" className="form-control" id="exampleDropdownFormEmail1" placeholder="Correo electrónico" />
                             <label for="exampleDropdownFormPassword1"></label>
-                            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Contraseña" />
+                            <input type="password" className="form-control" id="exampleDropdownFormPassword1" placeholder="Contraseña" />
                         </div>
                         <Link to="/inicio">
                             <button type="button" className="btn btn-warning btn-lg btn-block">Crear cuenta</button>
                         </Link>
                         <br />
-                        <div class="form-check"><center>
-                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
-                            <label class="form-check-label" for="defaultCheck1">No deseo que me contacten por el correo</label></center></div>
+                        <div className="form-check"><center>
+                            <input className="form-check-input" type="checkbox" value="" id="defaultCheck1" />
+                            <label className="form-check-label" for="defaultCheck1">No deseo que me contacten por el correo</label></center></div>
                         <br />
-                        <center><h6>Al continuar, confirmas que estás de acuerdo con los <a href="#" class="text-decoration-none">Términos de uso</a> de BiciPoint y que has leído la <a href="#" class="text-decoration-none">Política de privacidad</a> de BiciPoint.</h6></center>
+                        <center><h6>Al continuar, confirmas que estás de acuerdo con los <a href="#" className="text-decoration-none">Términos de uso</a> de BiciPoint y que has leído la <a href="#" className="text-decoration-none">Política de privacidad</a> de BiciPoint.</h6></center>
                         <br />
                         <center><h5><small className="text-muted">O inicia sesión con tus</small></h5></center>
                         <div className="dropdown-divider float-left"></div>

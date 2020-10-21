@@ -22,8 +22,8 @@ export default function CuentaUser2() {
                                     <li className="list-group-item">Mi cuenta</li>
                                     <li className="list-group-item">
                                         <div class="custom-control custom-switch">
-                                            <input type="checkbox" class="custom-control-input" id="customSwitch1" />
-                                            <label class="custom-control-label" for="customSwitch1">Modo Oscuro</label>
+                                            <input type="checkbox" className="custom-control-input" id="customSwitch1" />
+                                            <label className="custom-control-label" for="customSwitch1">Modo Oscuro</label>
                                         </div>
                                     </li>
                                     <li className="list-group-item">PQRS</li>
@@ -46,16 +46,16 @@ export default function CuentaUser2() {
                                     <li className="list-group-item">Frecuencia</li>
                                     <li className="list-group-item">Recordarte sobre...</li>
                                     <li className="list-group-item">
-                                        <div class="custom-control custom-switch">
-                                            <input type="checkbox" class="custom-control-input" id="customSwitch1" />
-                                            <label class="custom-control-label" for="customSwitch1" style={{ display: 'block' }}>Recordatorios silenciosos</label>
-                                            <a href="#" class="text-decoration-none" data-toggle="popover" style={{ fontSize: '10pt' }} data-trigger="focus" title="Son notificaciones que llegan a tu celular sin vibrar o producir sonido" >¿Qué son?</a>
+                                        <div className="custom-control custom-switch">
+                                            <input type="checkbox" className="custom-control-input" id="customSwitch1" />
+                                            <label className="custom-control-label" for="customSwitch1" style={{ display: 'block' }}>Recordatorios silenciosos</label>
+                                            <a href="#" className="text-decoration-none" data-toggle="popover" style={{ fontSize: '10pt' }} data-trigger="focus" title="Son notificaciones que llegan a tu celular sin vibrar o producir sonido" >¿Qué son?</a>
                                         </div>
                                     </li>
                                     <li className="list-group-item">
-                                        <div class="custom-control custom-switch">
-                                            <input type="checkbox" class="custom-control-input" id="customSwitch1" />
-                                            <label class="custom-control-label" for="customSwitch1">Modo Oscuro</label>
+                                        <div className="custom-control custom-switch">
+                                            <input type="checkbox" className="custom-control-input" id="customSwitch1" />
+                                            <label className="custom-control-label" for="customSwitch1">Modo Oscuro</label>
                                         </div>
                                     </li>
                                 </ul>

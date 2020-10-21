@@ -13,8 +13,6 @@ function Introduccion() {
       <Carrucel />
       <Link to="/entrar" className="btn btn-secondary ubic ">Saltar</Link>
 
-      
-
        {/*
         Imagenes={[
 

@@ -84,7 +84,6 @@ export default function Inicio_Naci2() {
                             <option value="22">2020</option>
                         </select>
                     </div>
-
                 </div>
             </center>
         </div>
