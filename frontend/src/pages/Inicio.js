@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "../styles/stylesInicio.css"
+import "../styles/stylesinicio.css"
 
 import Tabs from '../components/PrinTabs';
 import Recordatorios from '../components/PrinRecordatorios';

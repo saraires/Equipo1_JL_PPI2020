@@ -2,7 +2,7 @@ import React from 'react';
 
 import Home from '../components/PreMenu';
 import Icon_E from '../components/PreEmpresas';
-import '../styles/stylesEmpre.css';
+import '../styles/stylesempre.css';
 import imag1 from '../images/Frisby.png';
 import imag2 from '../images/Todoenartes.png';
 import imag3 from '../images/Metro.png';
