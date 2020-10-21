@@ -15,8 +15,7 @@ export default function MenuGlobal() {
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item active">
                                 <Link to="/mapa" className="nav-link">Mapa<span className="sr-only">(current)</span></Link>
-                            </li>  
-                            <p></p>
+                            </li>
                             <li className="nav-item active">
                                 <Link to="/record" className="nav-link">Record<span className="sr-only">(current)</span></Link>
                             </li>
