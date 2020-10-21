@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
-import Raster from '../images/Raster.png'
-import estilos from '../styles/Styles_Buscador.css';
+import '../styles/Styles_Buscador.css';
 
 
 class Buscador extends Component {
