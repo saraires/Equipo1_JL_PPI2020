@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "../styles/stylesintro.css"
+import '../styles/stylesintro.css'
 
 import Carrucel from '../components/Carrucel';
 
