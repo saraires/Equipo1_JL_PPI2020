@@ -7,8 +7,8 @@ export default function PreMenu() {
     return (
         <div>
             <div>
-                <nav className="navbar navbar-expand-lg navbar-light container shadow-lg p-3 mb-5" style={{ background: "#FFBA5C" }}>
-                    <a className="navbar-brand text-center font-weight-bolder" href="">Convenios</a>
+                <nav className="navbar navbar-expand-lg navbar-light container shadow-lg p-3 mb-4" style={{ background: "#FFBA5C" }}>
+                    <a className="navbar-brand text-center font-weight-bolder" href="">Premios</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style={{ background: "#FFBA5C" }}>
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -29,9 +29,11 @@ export default function PreMenu() {
                             <li className="nav-item active">
                                 <Link to = "/historial" className="nav-link  opcio" href="">Historial de terras redimidas <span className="sr-only">(current)</span></Link>
                             </li>
+                            {/*Eliminar componente!!!
                             <li className="nav-item active">
                                 <Link to = "/convenios" className="nav-link  opcio" href="">Empresas afiliadas <span className="sr-only">(current)</span></Link>
                             </li>
+                            */}
 
                             <div className="dropdown-divider"></div>
 

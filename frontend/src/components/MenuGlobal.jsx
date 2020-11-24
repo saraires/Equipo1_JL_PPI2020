@@ -1,37 +1,38 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import mapa from '../images/Mapa.png'
+import record from '../images/progress.png'
+import inicio from '../images/Inicio.png'
+import premios from '../images/Premios.png'
+import perfil from '../images/PerfilCeleste.png'
+
 export default function MenuGlobal() {
     return (
         <div>
-            <div className="container">
-                <nav className="navbar fixed-bottom navbar-expand-lg navbar-light container shadow-lg p-3 " style={{ background: "#FFBA5C", paddingTop: "80px" }}>
-                    <a className="navbar-brand" href="#">BiciPoint</a>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav mr-auto">
-                            <li className="nav-item active">
-                                <Link to="/mapa" className="nav-link">Mapa<span className="sr-only">(current)</span></Link>
-                            </li>
-                            <li className="nav-item active">
-                                <Link to="/record" className="nav-link">Record<span className="sr-only">(current)</span></Link>
-                            </li>
-                            <li className="nav-item active">
-                                <Link to="/inicio" className="nav-link">Inicio<span className="sr-only">(current)</span></Link>
-                            </li>  
-                            <li className="nav-item active">
-                                <Link to="/premios" className="nav-link">Premios<span className="sr-only">(current)</span></Link>
-                            </li>  
-                            <li className="nav-item active">
-                                <Link to="perfil" className="nav-link">Perfil<span className="sr-only">(current)</span></Link>
-                            </li>      
+            <footer>
+                <section class="wrapper fixed-bottom" style={{ background: "#FFBA5C", padding: "7px" }}>
+                    <nav>
+                        <ul className= "nav ul li a">
+                            <Link to="/mapa">
+                                <button type="button" className="btn" style={{marginLeft:"20px"}}><img src={mapa} alt="Logo" width="30px" /></button>
+                            </Link>
+                            <Link to="/record">
+                                <button type="button" className="btn" style={{marginLeft:"20px"}}><img src={record} alt="Logo" width="30px" /></button>
+                            </Link>
+                            <Link to="/inicio">
+                                <button type="button" className="btn" style={{marginLeft:"20px"}}><img src={inicio} alt="Logo" width="30px" /></button>
+                            </Link>
+                            <Link to="/premios">
+                                <button type="button" className="btn" style={{marginLeft:"20px"}}><img src={premios} alt="Logo" width="30px" /></button>
+                            </Link>
+                            <Link to="/perfil">
+                                <button type="button" className="btn" style={{marginLeft:"20px"}}><img src={perfil} alt="Logo" width="30px" /></button>
+                            </Link>
                         </ul>
-                    </div>
-                </nav>
-            </div>
+                    </nav>
+                </section>
+            </footer>
         </div>
     )
 }

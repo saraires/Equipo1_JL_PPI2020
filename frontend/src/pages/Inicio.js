@@ -19,7 +19,7 @@ function Inicio() {
           <div>
             <h4 className="font-weight-bolder">Hola Celeste Tamayo</h4>
             <p className="text-muted">
-              <a href="" className="text-reset font-weight-bolder">tenemos un resumen de tu día </a>
+              <a href="" className="text-reset font-weight-bolder">Tenemos un resumen de tu día </a>
             </p>
             <Link to="/contactanos">
               <button type="button" className="btn btn-secondary float-right">Contáctanos</button>

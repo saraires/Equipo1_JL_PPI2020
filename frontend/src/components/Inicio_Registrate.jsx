@@ -10,11 +10,11 @@ export default function Inicio_Registrate() {
     return (
         <>
             <div className="container">
-                <div className="shadow-lg p-3 mb-5 bg-white rounded">
+                <div className="shadow-lg p-3 mb-5 bg-white rounded" style={{height:"45rem"}}>
 
                     <form>
-                        <br />
                         <img src={LogoBiciPoint} alt="Logo" className="rounded mx-auto d-block" width="97px" />
+                        <br />
                         <center><h2>Regístrate</h2></center>
 
                         <div className="form-group">
@@ -24,6 +24,8 @@ export default function Inicio_Registrate() {
                             <input type="email" className="form-control" id="exampleDropdownFormEmail1" placeholder="Correo electrónico" />
                             <label for="exampleDropdownFormPassword1"></label>
                             <input type="password" className="form-control" id="exampleDropdownFormPassword1" placeholder="Contraseña" />
+                            <label for="exampleDropdownFormName2"></label>
+                            <input type="id" className="form-control" id="exampleDropdownFormName2" placeholder="Número de identificación" />
                         </div>
                         <Link to="/inicio">
                             <button type="button" className="btn btn-warning btn-lg btn-block">Crear cuenta</button>
@@ -35,6 +37,7 @@ export default function Inicio_Registrate() {
                         <br />
                         <center><h6>Al continuar, confirmas que estás de acuerdo con los <a href="#" className="text-decoration-none">Términos de uso</a> de BiciPoint y que has leído la <a href="#" className="text-decoration-none">Política de privacidad</a> de BiciPoint.</h6></center>
                         <br />
+                        {/*Eliminar componente!!!
                         <center><h5><small className="text-muted">O inicia sesión con tus</small></h5></center>
                         <div className="dropdown-divider float-left"></div>
                         <center><h5><small className="text-muted">redes sociales</small></h5></center>
@@ -59,6 +62,7 @@ export default function Inicio_Registrate() {
                                 <button type="button" className="btn btn-dark btn-sm float-left" style={{ display: "flex" }} ><img src={Facebook_logo} alt="Logo" className="rounded mx-auto d-block" width="25px" />Facebook</button>
                             </div>
                         </div>
+                        */}
                     </form>
                 </div>
             </div>

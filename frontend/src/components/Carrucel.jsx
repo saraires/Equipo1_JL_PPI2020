@@ -25,15 +25,15 @@ class Carrucel extends Component {
                     <div className="shadow p-4 mb-3 carousel-inner ">
 
                         <div className="carousel-item active">
-                            <img src={imagen1} className="d-block" style={{ width: "15rem", text: 'center' }} alt="..." />
+                            <img src={imagen1} className="d-block" style={{ width: "20rem", text: 'center' }} alt="..." />
                             <p className="text-center texto font-weight-bolder">Puedes andar en bicicleta, caminar o usar cualquier medio de transporte limpio. </p>
                         </div>
                         <div className="carousel-item">
-                            <img src={imagen2} className="d-block" style={{ width: "15rem", text: 'center' }} alt="..." />
+                            <img src={imagen2} className="d-block" style={{ width: "20rem", text: 'center' }} alt="..." />
                             <p className="text-center texto font-weight-bolder">Asi nos ayudas a limpiar el aire que recubre nuestra amada tierra.</p>
                         </div>
                         <div className="carousel-item">
-                            <img src={imagen3} className="d-block" style={{ width: "15rem", text: 'center' }} alt="..." />
+                            <img src={imagen3} className="d-block" style={{ width: "20rem", text: 'center' }} alt="..." />
                             <p className="text-center texto font-weight-bolder">Con los puntos que ganes por los Kms que recorras, puedes canjearlos por tópicos geniales.</p>
                         </div>
                     </div>

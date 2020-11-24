@@ -11,13 +11,13 @@ class Noticias extends Component {
             <center><div id="carouselExampleInterval" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active text-wrap" data-interval="10000">
-                        <div style={{ backgroundColor: '#2CA6E8' }} className="fondo "><h4 className="font-weight-bolder text-white">¿Sabias que en Colombia puedes ganarte medio dia libre pago? Da click aquí para saber más</h4></div>
+                        <div style={{ backgroundColor: '#2CA6E8', display: "flex", alignItems: "center", padding:"10px" }} className="fondo "><h4 className="font-weight-bolder text-white">¿Sabias que en Colombia puedes ganarte medio dia libre pago? Da click aquí para saber más</h4></div>
                     </div>
                     <div className="carousel-item" data-interval="2000">
-                        <div style={{ backgroundColor: '#2CA6E8' }} className="fondo "><h4 className="font-weight-bolder text-white">Cuando sales a caminar o a pasear en bicicleta, no solo contribuyes con el ambiente sino tambien con tu salud.</h4></div>
+                        <div style={{ backgroundColor: '#2CA6E8', display: "flex", alignItems: "center", padding:"10px" }} className="fondo "><h4 className="font-weight-bolder text-white">Cuando sales a caminar o a pasear en bicicleta, no solo contribuyes con el ambiente sino tambien con tu salud.</h4></div>
                     </div>
                     <div className="carousel-item">
-                        <div style={{ backgroundColor: '#2CA6E8' }} className="fondo "><h4 className="font-weight-bolder text-white ">Cuando sales a caminar o a pasear en bicicleta, no solo contribuyes con el ambiente sino tambien con tu salud.</h4></div>
+                        <div style={{ backgroundColor: '#2CA6E8', display: "flex", alignItems: "center", padding:"10px" }} className="fondo "><h4 className="font-weight-bolder text-white ">Cuando sales a caminar o a pasear en bicicleta, no solo contribuyes con el ambiente sino tambien con tu salud.</h4></div>
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">

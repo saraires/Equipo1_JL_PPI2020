@@ -8,7 +8,8 @@ import OtroUsuario from "../images/OtroUsuario.png";
 
 export default function Inicio_Google() {
     return (
-        <div>
+        <div>{/*/Quitar componente!!!
+            
             <div className="container card shadow-lg p-3 mb-5 bg-white rounded">
                 <img src={LogoBiciPoint} alt="Logo" className="rounded mx-auto d-block" width="70px" />
                 <center><h4>Elige una cuenta</h4></center>
@@ -37,6 +38,7 @@ export default function Inicio_Google() {
                 <center><h6><small className="text-muted">Para continuar, Google compartirá tu nombre, dirección de correo electrónico y foto de perfil con BiciPoint. Antes de usar esta app, consulta su </small><a href="#" className="text-decoration-none">Política de Privacidad</a></h6></center>
                 <br />
             </div>
+            */}
         </div>
     );
 }

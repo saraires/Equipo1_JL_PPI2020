@@ -9,16 +9,19 @@ export default function Inicio_Entrar() {
     return (
         <>
             <div className="container">
-                <div className="shadow-lg p-3 mb-5 bg-white rounded">
+                <div className="shadow-lg p-3 mb-5 bg-white rounded" style={{height:"45rem"}}>
                     <form>
                         <br />
+                        <br />
                         <img src={LogoBiciPoint} alt="Logo" className="rounded mx-auto d-block" width="97px" />
+                        <br/>
                         <center><h2>Inicio de sesión</h2></center>
                         <div className="form-group">
                             <label for="exampleDropdownFormEmail1"></label>
                             <input type="email" className="form-control" id="exampleDropdownFormEmail1" placeholder="Correo electrónico o nombre de usuario" />
                             <label for="exampleDropdownFormPassword1"></label>
                             <input type="password" className="form-control" id="exampleDropdownFormPassword1" placeholder="Contraseña" />
+                            <br/>
                             <center><a href="" className="text-decoration-none">¿Olvidaste la contraseña?</a></center>
                         </div>
                         <Link to="/inicio">
@@ -30,6 +33,7 @@ export default function Inicio_Entrar() {
                             <center><button type="button" className="btn btn-warning btn-lg">¡Regístrate aquí!</button></center>
                         </Link>
                         <br />
+                        {/* 
                         <center><h5><small className="text-muted">O inicia sesión con tus</small></h5></center>
                         <center><h5><small className="text-muted">redes sociales</small></h5></center>
                         <br />
@@ -43,6 +47,7 @@ export default function Inicio_Entrar() {
                                 <button type="button" className="btn btn-dark btn-sm float-left" style={{ display: "flex" }} ><img src={Facebook_logo} alt="Logo" className="rounded mx-auto d-block" width="25px" />Facebook</button>
                             </div>
                         </div>
+                        */}
                     </form>
                 </div>
             </div>

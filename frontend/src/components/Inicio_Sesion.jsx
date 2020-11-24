@@ -22,6 +22,7 @@ export default function Inicio_Sesion() {
                         <center><h5><small className="text-muted">¿Primera vez en BiciPoint?</small></h5></center>
                         <center><button type="button" className="btn btn-warning btn-lg">¡Regístrate aquí!</button></center>
                         <br />
+                        {/*Eliminar componente!!!
                         <center><h5><small className="text-muted">O inicia sesión con tus </small></h5></center>
                         <center><h5><small className="text-muted">redes sociales</small></h5></center>
                         <br />
@@ -71,6 +72,7 @@ export default function Inicio_Sesion() {
                                 <button type="button" className="btn btn-dark btn-sm float-left" style={{ display: "flex" }} ><img src={Facebook_logo} alt="Logo" className="rounded mx-auto d-block" width="25px" />Facebook</button>
                             </div>
                         </div>
+                        */}
                     </div>
                 </form>
             </div>
