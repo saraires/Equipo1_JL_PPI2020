@@ -15,19 +15,19 @@ export default function MenuGlobal() {
                     <nav>
                         <ul className= "nav ul li a">
                             <Link to="/mapa">
-                                <button type="button" className="btn" style={{marginLeft:"20px"}}><img src={mapa} alt="Logo" width="30px" /></button>
+                                <button type="button" className="btn" style={{marginLeft:"20px"}}><img src={mapa} alt="Logo" width="33px" /></button>
                             </Link>
                             <Link to="/record">
-                                <button type="button" className="btn" style={{marginLeft:"20px"}}><img src={record} alt="Logo" width="30px" /></button>
+                                <button type="button" className="btn" style={{marginLeft:"20px"}}><img src={record} alt="Logo" width="33px" /></button>
                             </Link>
                             <Link to="/inicio">
-                                <button type="button" className="btn" style={{marginLeft:"20px"}}><img src={inicio} alt="Logo" width="30px" /></button>
+                                <button type="button" className="btn" style={{marginLeft:"20px"}}><img src={inicio} alt="Logo" width="33px" /></button>
                             </Link>
                             <Link to="/premios">
-                                <button type="button" className="btn" style={{marginLeft:"20px"}}><img src={premios} alt="Logo" width="30px" /></button>
+                                <button type="button" className="btn" style={{marginLeft:"20px"}}><img src={premios} alt="Logo" width="33px" /></button>
                             </Link>
                             <Link to="/perfil">
-                                <button type="button" className="btn" style={{marginLeft:"20px"}}><img src={perfil} alt="Logo" width="30px" /></button>
+                                <button type="button" className="btn" style={{marginLeft:"20px"}}><img src={perfil} alt="Logo" width="33px" /></button>
                             </Link>
                         </ul>
                     </nav>

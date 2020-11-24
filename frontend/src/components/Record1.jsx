@@ -26,7 +26,7 @@ export default function Record1() {
                     </div>
                     <div style={{ margin: "auto" }}>
                         <img src={Bolita} style={{ width: "30px" }} alt="foto" className="rounded-circle" />
-                        <center><p>M</p></center>
+                        <center><p>W</p></center>
                     </div>
                     <div style={{ margin: "auto" }}>
                         <img src={Bolita} style={{ width: "30px" }} alt="foto" className="rounded-circle" />

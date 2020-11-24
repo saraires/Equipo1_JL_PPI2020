@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../pages/styles/styles.css';
+import { Link } from 'react-router-dom';
 
 import imagen1 from '../images/Intro1.jpg';
 import imagen2 from '../images/Intro2.jpg';
@@ -27,17 +28,20 @@ class Carrucel extends Component {
                         <div className="carousel-item active">
                             <img src={imagen1} className="d-block" style={{ width: "20rem", text: 'center' }} alt="..." />
                             <p className="text-center texto font-weight-bolder">Puedes andar en bicicleta, caminar o usar cualquier medio de transporte limpio. </p>
+                            <Link to ="/entrar" style={{ marginLeft: "80%", color:"#47525E" }}>Saltar</Link>
                         </div>
                         <div className="carousel-item">
-                            <img src={imagen2} className="d-block" style={{ width: "20rem", text: 'center' }} alt="..." />
+                            <img src={imagen2} className="d-block" style={{ width: "21rem", text: 'center' }} alt="..." />
                             <p className="text-center texto font-weight-bolder">Asi nos ayudas a limpiar el aire que recubre nuestra amada tierra.</p>
+                            <Link to ="/entrar" style={{ marginLeft: "80%", color:"#47525E" }}>Saltar</Link>
                         </div>
                         <div className="carousel-item">
                             <img src={imagen3} className="d-block" style={{ width: "20rem", text: 'center' }} alt="..." />
                             <p className="text-center texto font-weight-bolder">Con los puntos que ganes por los Kms que recorras, puedes canjearlos por tópicos geniales.</p>
+                            <Link to ="/entrar" style={{ marginLeft: "80%", color:"#47525E" }}>Saltar</Link>
                         </div>
                     </div>
-                    <a className="carousel-control" href="#carouselExampleIndicators" role="" data-slide="prev">
+                    <a className="carousel-control" href="#carouselExampleIndicators" role="button" data-slide="prev">
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span className="sr-only">Previous</span>
                     </a>
@@ -45,6 +49,7 @@ class Carrucel extends Component {
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="sr-only">Next</span>
                     </a>
+                    
                 </div>
             </center>
 

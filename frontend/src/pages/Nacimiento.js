@@ -7,7 +7,6 @@ export default function Nacimiento(){
     return (
         <>
             <Naci1 />
-            <Naci2 />
         </>
     );
 }

@@ -13,7 +13,6 @@ function Introduccion() {
   return (
     <div>
       <Carrucel />
-      <Link to="/entrar" className="btn btn-secondary" style={{marginLeft: "80%", position:""}}>Saltar</Link>
 
        {/*
         Imagenes={[

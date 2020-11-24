@@ -39,6 +39,7 @@ function App() {
           <Route exact path="/fecha" component={Nacimiento} />
           <Route exact path="/nombre-usuario" component={Inicio_NombreUser} />
 
+
           {/*Inicio y contacto*/}
           <Route exact path="/pagina-principal" component={Inicio} />
           <Route exact path="/contactanos" component={Formulario} />

@@ -1,5 +1,6 @@
 import React from "react";
-import PruebaNaci from "./InicioNaci2";
+import { Link } from 'react-router-dom';
+import Naci2 from "./InicioNaci2";
 
 export default function InicioNaci1() {
     return (
@@ -12,10 +13,12 @@ export default function InicioNaci1() {
                 <center><h6>Dinos, ¿Cuál es tu fecha de nacimiento?</h6></center>
                 <center><h6><small className="text-muted">Tu fecha de nacimiento no se mostrará públicamente</small></h6></center>
                 <br />
-                <PruebaNaci />
+                <Naci2 />
                 <br />
                 <br />
+                <Link to="/nombre-usuario">
                 <button type="button" className="btn btn-warning btn-lg btn-block">Siguiente</button>
+                </Link>
             </div>
 
         </>

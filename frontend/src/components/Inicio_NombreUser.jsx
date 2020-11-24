@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 export default function Inicio_NombreUser() {
     return (
 
         <>
-            <div className="container card shadow p-5 mb-3" style={{ padding: "40px" }}>
+            <div className="container card shadow p-5 mb-3" style={{ padding: "40px"}}>
                 <br />
                 <center><h4>Nombre de usuario</h4></center>
                 <br />
@@ -18,7 +19,9 @@ export default function Inicio_NombreUser() {
                     <br />
                     <br />
                     <br />
+                    <Link to="/inicio">
                     <button type="button" className="btn btn-warning btn-lg btn-block">Guardar</button>
+                    </Link>
                 </form>
             </div>
 

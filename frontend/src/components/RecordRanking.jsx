@@ -12,15 +12,16 @@ export default function Ranking() {
             <div className="container">
                 <div>
                     <nav className="navbar navbar-expand-lg navbar-light container shadow-lg p-3 mb-5" style={{ background: "#FFBA5C" }}>
-                        <a className="navbar-brand text-center font-weight-bolder" href="">Ranking Semanal</a>
+                    <a href = "javascript:history.back()" style={{color:"#47525E"}}>Atrás</a>
+                    <a className="navbar-brand text-center font-weight-bolder" href="#" style={{textAlignLast:"center"}}>Ranking Semanal</a>
                     </nav>
                 </div>
                 
                 <div align="center"><Link to ="/ranking"><img src={Celeste} alt="foto" className="rounded-circle" width="120px"/></Link></div>
                 <h1 align="center">Celeste  Tamayo</h1>
 
-                <table className="table table-striped">
-                    <thead style={{ backgroundColor: "#FFBA5C" }}>
+                <table className="table table-striped" style={{marginBottom:"500px"}}>
+                    <thead style={{ backgroundColor: "#FFBA5" }}>
                         <tr>
                             <th scope="col">#</th>
                             <th scope="col">Usuario</th>
@@ -85,6 +86,12 @@ export default function Ranking() {
                         </tr>
                         <tr>
                             <th scope="row">10</th>
+                            <td>Emma</td>
+                            <td>1750 km</td>
+                            <td>490 T</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">11</th>
                             <td>Emma</td>
                             <td>1750 km</td>
                             <td>490 T</td>

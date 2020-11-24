@@ -11,7 +11,7 @@ class Tabs extends Component {
         return (<div className="entorno_Tabs  ">
             <ul className="nav nav-tabs " id="myTab">
                 <li className="nav-item">
-                    <a className="nav-link color_tabs" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"><h6 style={{ color: '#633930', display: "flex", alignItems: "center"}}>kms</h6></a>
+                    <a className="nav-link color_tabs" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"><h6 style={{ color: '#633930', display: "flex", alignItems: "center"}}>km</h6></a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link color_tabs" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"><h6 style={{ color: '#633930', display: "flex", alignItems: "center"}}>Terras</h6></a>
@@ -32,9 +32,7 @@ class Tabs extends Component {
                     </Link>
                 </div>
                 <div className="tab-pane fade color_contenido" id="contact" role="tabpanel" aria-labelledby="contact-tab"><h6 className="text-center text-white font-weight-bolder center">¿No conoces dónde están los puntos de encicla en la ciudad?</h6>
-                    <Link to="/mapa">
-                        <p className="text-center text-white  font-weight-bolder center"> Da click aquí para visualizarlos</p>
-                    </Link>
+                    <center><a href="https://encicla.metropol.gov.co/" className="text-center text-white  font-weight-bolder center" target="_blank"> Da click aquí para visualizarlos</a></center>
                 </div>
             </div>
         </div>)

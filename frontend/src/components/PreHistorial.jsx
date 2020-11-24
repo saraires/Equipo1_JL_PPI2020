@@ -45,7 +45,7 @@ export default function PreHistorial() {
                                 <p style={{ color: "gray" }}>20% de descuento en la compra de cualquier instrumento</p>
                             </div>
                         </div>
-                        <div className="card">
+                        <div className="card" style={{marginBottom:"30px"}}>
                             <div className="card-body" style={{ display: "flex" }}>
                                 <img src={Frisby} className="card-img-top rounded" href="#list-home" style={{ width: "90px", marginTop: '5px' }} alt="Portada" />
                                 <div style={{ marginLeft: "15px" }}>

@@ -2,6 +2,7 @@ import React from 'react';
 
 import FondoUser from '../images/FondoUser.jpg'
 import Celeste from '../images/Celeste.jpg'
+import Bolita from '../images/Bolita.png';
 
 export default function CuentaUser1() {
     return (
@@ -21,6 +22,37 @@ export default function CuentaUser1() {
                         <div className="dropdown-divider"></div>
                         <br />
                         <h5 className="card-text"><strong>Actividad semanal</strong></h5>
+                        <br/>
+                        <div className="" style={{ display: "flex", margin: "auto" }}>
+                            <div style={{ margin: "auto" }}>
+                                <img src={Bolita} style={{ width: "30px" }} alt="foto" className="rounded-circle" />
+                                <center><p>L</p></center>
+                            </div>
+                            <div style={{ margin: "auto" }}>
+                                <img src={Bolita} style={{ width: "30px" }} alt="foto" className="rounded-circle" />
+                                <center><p>M</p></center>
+                            </div>
+                            <div style={{ margin: "auto" }}>
+                                <img src={Bolita} style={{ width: "30px" }} alt="foto" className="rounded-circle" />
+                                <center><p>W</p></center>
+                            </div>
+                            <div style={{ margin: "auto" }}>
+                                <img src={Bolita} style={{ width: "30px" }} alt="foto" className="rounded-circle" />
+                                <center><p>J</p></center>
+                            </div>
+                            <div style={{ margin: "auto" }}>
+                                <img src={Bolita} style={{ width: "30px" }} alt="foto" className="rounded-circle" />
+                                <center><p>V</p></center>
+                            </div>
+                            <div style={{ margin: "auto" }}>
+                                <img src={Bolita} style={{ width: "30px" }} alt="foto" className="rounded-circle" />
+                                <center><p>S</p></center>
+                            </div>
+                            <div style={{ margin: "auto" }}>
+                                <img src={Bolita} style={{ width: "30px" }} alt="foto" className="rounded-circle" />
+                                <center><p>D</p></center>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
