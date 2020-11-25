@@ -15,7 +15,7 @@ export default function MenuGlobal() {
                     <nav>
                         <ul className= "nav ul li a">
                             <Link to="/mapa">
-                                <button type="button" className="btn" style={{marginLeft:"20px"}}><img src={mapa} alt="Logo" width="33px" /></button>
+                                <button type="button" className="btn" style={{marginLeft:"10px"}}><img src={mapa} alt="Logo" width="33px" /></button>
                             </Link>
                             <Link to="/record">
                                 <button type="button" className="btn" style={{marginLeft:"20px"}}><img src={record} alt="Logo" width="33px" /></button>
