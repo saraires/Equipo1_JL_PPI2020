@@ -29,7 +29,7 @@ export default function Inicio_Entrar() {
                         </Link>
                         <br />
                         <center><h5><small className="text-muted">¿Eres un usuario nuevo?</small></h5></center>
-                        <Link to="/registro">
+                        <Link to="/nombre-usuario">
                             <center><button type="button" className="btn btn-warning btn-lg">¡Regístrate aquí!</button></center>
                         </Link>
                         <br />
