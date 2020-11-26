@@ -10,6 +10,7 @@ export default function Inicio_Entrar() {
         <>
             <div className="container">
                 <div className="shadow-lg p-3 mb-5 bg-white rounded" style={{height:"45rem"}}>
+                <a href = "javascript:history.back()" style={{color:"#47525E"}}>Atrás</a>
                     <form>
                         <br />
                         <br />
@@ -29,7 +30,7 @@ export default function Inicio_Entrar() {
                         </Link>
                         <br />
                         <center><h5><small className="text-muted">¿Eres un usuario nuevo?</small></h5></center>
-                        <Link to="/nombre-usuario">
+                        <Link to="/registro">
                             <center><button type="button" className="btn btn-warning btn-lg">¡Regístrate aquí!</button></center>
                         </Link>
                         <br />

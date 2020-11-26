@@ -10,7 +10,8 @@ export default function Inicio_Registrate() {
     return (
         <>
             <div className="container">
-                <div className="shadow-lg p-3 mb-5 bg-white rounded" style={{ height: "45rem" }}>
+                <div className="shadow-lg p-3 mb-5 bg-white rounded" style={{height:"45rem"}}>
+                <a href = "javascript:history.back()" style={{color:"#47525E"}}>Atrás</a>
 
                     <form>
                         <img src={LogoBiciPoint} alt="Logo" className="rounded mx-auto d-block" width="97px" />
@@ -28,7 +29,7 @@ export default function Inicio_Registrate() {
                             <input type="id" className="form-control" id="exampleDropdownFormName2" placeholder="Número de identificación" />
                                                         
                         </div>
-                        <Link to="/fecha">
+                        <Link to="/nombre-usuario">
                             <button type="button" className="btn btn-warning btn-lg btn-block">Crear cuenta</button>
                         </Link>
                         <br />
