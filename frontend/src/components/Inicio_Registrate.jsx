@@ -27,7 +27,7 @@ export default function Inicio_Registrate() {
                             <label for="exampleDropdownFormName2"></label>
                             <input type="id" className="form-control" id="exampleDropdownFormName2" placeholder="Número de identificación" />
                         </div>
-                        <Link to="/fecha">
+                        <Link to="/nombre-usuario">
                             <button type="button" className="btn btn-warning btn-lg btn-block">Crear cuenta</button>
                         </Link>
                         <br />
