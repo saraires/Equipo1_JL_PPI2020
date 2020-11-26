@@ -10,7 +10,7 @@ export default function Inicio_Registrate() {
     return (
         <>
             <div className="container">
-                <div className="shadow-lg p-3 mb-5 bg-white rounded" style={{height:"45rem"}}>
+                <div className="shadow-lg p-3 mb-5 bg-white rounded" style={{ height: "45rem" }}>
 
                     <form>
                         <img src={LogoBiciPoint} alt="Logo" className="rounded mx-auto d-block" width="97px" />
@@ -19,13 +19,14 @@ export default function Inicio_Registrate() {
 
                         <div className="form-group">
                             <label for="exampleDropdownFormName1"></label>
-                            <input type="name" className="form-control" id="exampleDropdownFormName1" placeholder="Nombre completo" />
+                            <input type="name" className="form-control" id="exampleDropdownFormName1" placeholder="Nombre completo" />                        
                             <label for="exampleDropdownFormEmail1"></label>
                             <input type="email" className="form-control" id="exampleDropdownFormEmail1" placeholder="Correo electrónico" />
                             <label for="exampleDropdownFormPassword1"></label>
                             <input type="password" className="form-control" id="exampleDropdownFormPassword1" placeholder="Contraseña" />
                             <label for="exampleDropdownFormName2"></label>
                             <input type="id" className="form-control" id="exampleDropdownFormName2" placeholder="Número de identificación" />
+                                                        
                         </div>
                         <Link to="/fecha">
                             <button type="button" className="btn btn-warning btn-lg btn-block">Crear cuenta</button>
