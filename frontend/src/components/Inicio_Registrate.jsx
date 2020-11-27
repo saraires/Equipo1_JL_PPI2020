@@ -1,16 +1,56 @@
-import React from "react";
+import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+import axios  from 'axios';
 
 import LogoBiciPoint from '../images/LogoBiciPoint.png';
 import Google_logo from '../images/Google_logo.png';
 import Facebook_logo from '../images/Facebook_logo.webp';
 import Inicio_Google from './Inicio_Google';
 
-export default function Inicio_Registrate() {
-    return (
+
+class Inicio_Registrarse extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            form:{
+            idDocUsuario:'',
+            email:'',
+            nombre_cliente:'',
+            clave:'',
+            usuario:''    
+        }
+        }
+    }
+
+PeticionRegister=async()=>{
+   await axios.post('https://servicios-de-backend.alejandrogaviri.repl.co/api/registro2',this.state.form)
+//    await axios.post('https://servicios-de-backend.alejandrogaviri.repl.co/api/usuarios/registro',this.state.form)
+
+    .then(res=>{
+        console.log("exito");
+    }).catch(error=>{
+        console.log(error.message);
+    })
+}
+    
+    handleChange=async(e)=>{
+        e.persist();
+        await this.setState({
+          form:{
+            ...this.state.form,
+           [e.target.name]: e.target.value
+          }
+        });
+        console.log(this.state.form)
+       }
+
+    render() {
+
+       
+        return (
         <>
             <div className="container">
-                <div className="shadow-lg p-3 mb-5 bg-white rounded" style={{height:"45rem"}}>
+                <div className="shadow-lg p-3 mb-5 bg-white rounded" style={{height:"50rem"}}>
                 <a href = "javascript:history.back()" style={{color:"#47525E"}}>Atrás</a>
 
                     <form>
@@ -19,18 +59,24 @@ export default function Inicio_Registrate() {
                         <center><h2>Regístrate</h2></center>
 
                         <div className="form-group">
-                            <label for="exampleDropdownFormName1"></label>
-                            <input type="name" className="form-control" id="exampleDropdownFormName1" placeholder="Nombre completo" />                        
+                            <label  for="exampleDropdownFormName1"></label>
+                            <input name="nombre_cliente" type="name" className="form-control" id="exampleDropdownFormName1" placeholder="Nombre completo" onChange={this.handleChange} value={this.state.form.nombre_cliente}/>
+                                                   
                             <label for="exampleDropdownFormEmail1"></label>
-                            <input type="email" className="form-control" id="exampleDropdownFormEmail1" placeholder="Correo electrónico" />
-                            <label for="exampleDropdownFormPassword1"></label>
-                            <input type="password" className="form-control" id="exampleDropdownFormPassword1" placeholder="Contraseña" />
-                            <label for="exampleDropdownFormName2"></label>
-                            <input type="id" className="form-control" id="exampleDropdownFormName2" placeholder="Número de identificación" />
+                            <input name="email" type="email" className="form-control" id="exampleDropdownFormEmail1" placeholder="Correo electrónico" onChange={this.handleChange} value={this.state.form.email}/>
+
+                            <label  for="exampleDropdownFormPassword1"></label>
+                            <input name="clave" type="password" className="form-control" id="exampleDropdownFormPassword1" placeholder="Contraseña" onChange={this.handleChange} value={this.state.form.clave}/>            
+
+                            <label  for="exampleDropdownFormName2"></label>
+                            <input name="idDocUsuario" type="id" className="form-control" id="exampleDropdownFormName2" placeholder="Número de identificación" onChange={this.handleChange} value={this.state.form.idDocUsuario}/>
+
+                            <label  for="exampleDropdownFormName2"></label>
+                            <input name="usuario" type="name" className="form-control" id="exampleDropdownFormName2" placeholder="Nombre de usuario" onChange={this.handleChange} value={this.state.form.usuario}/>
                                                         
                         </div>
-                        <Link to="/nombre-usuario">
-                            <button type="button" className="btn btn-warning btn-lg btn-block">Crear cuenta</button>
+                        <Link to="/inicio">
+                            <button type="button" className="btn btn-warning btn-lg btn-block" onClick={this.PeticionRegister}>Crear cuenta</button>
                         </Link>
                         <br />
                         <div className="form-check"><center>
@@ -71,3 +117,5 @@ export default function Inicio_Registrate() {
         </>
     );
 }
+}
+export default Inicio_Registrarse;

@@ -20,7 +20,7 @@ export default function Inicio_NombreUser() {
                     <br />
                     <br />
                     <Link to="/inicio">
-                    <button type="button" className="btn btn-warning btn-lg btn-block">Guardar</button>
+                    <button type="button" className="btn btn-warning btn-lg btn-block"  >Guardar</button>
                     </Link>
                 </form>
             </div>
