@@ -17,7 +17,7 @@ function Inicio() {
         <div className="shadow-lg p-3 mb-5 bg-white rounded">
           <br />
           <div>
-            <h4 className="font-weight-bolder">Hola ,Celeste Tamayo</h4>
+            <h4 className="font-weight-bolder">Hola, Celeste Tamayo</h4>
             <p className="text-muted">
               <a href="" className="text-reset font-weight-bolder">Tenemos un resumen de tu día </a>
             </p>
