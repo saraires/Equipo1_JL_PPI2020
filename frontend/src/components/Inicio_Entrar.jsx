@@ -9,20 +9,20 @@ export default function Inicio_Entrar() {
     return (
         <>
             <div className="container">
-                <div className="shadow-lg p-3 mb-5 bg-white rounded" style={{height:"45rem"}}>
-                <a href = "javascript:history.back()" style={{color:"#47525E"}}>Atrás</a>
+                <div className="shadow-lg p-3 mb-5 bg-white rounded" style={{ height: "45rem" }}>
+                    <a href="javascript:history.back()" style={{ color: "#47525E" }}>Atrás</a>
                     <form>
                         <br />
                         <br />
                         <img src={LogoBiciPoint} alt="Logo" className="rounded mx-auto d-block" width="97px" />
-                        <br/>
+                        <br />
                         <center><h2>Inicio de sesión</h2></center>
                         <div className="form-group">
                             <label for="exampleDropdownFormEmail1"></label>
                             <input type="email" className="form-control" id="exampleDropdownFormEmail1" placeholder="Correo electrónico o nombre de usuario" />
                             <label for="exampleDropdownFormPassword1"></label>
                             <input type="password" className="form-control" id="exampleDropdownFormPassword1" placeholder="Contraseña" />
-                            <br/>
+                            <br />
                             <center><a href="" className="text-decoration-none">¿Olvidaste la contraseña?</a></center>
                         </div>
                         <Link to="/inicio">
@@ -55,3 +55,8 @@ export default function Inicio_Entrar() {
         </>
     );
 }
+
+
+
+
+
