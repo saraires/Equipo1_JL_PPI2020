@@ -7,17 +7,19 @@ import Recordatorios from '../components/PrinRecordatorios';
 import Noticias from '../components/PrinNoticias';
 import banner from '../images/Fondo.png';
 import MenuGlobal from '../components/MenuGlobal';
+import Inicio_Entrar from '../components/Inicio_Entrar';
 
 
 function Inicio() {
   return (
     <>
       <div className="container pb-5">
-        <img src={banner} className="img-fluid" alt="Responsive image"/>
+        <img src={banner} className="img-fluid" alt="Responsive image" />
         <div className="shadow-lg p-3 mb-5 bg-white rounded">
           <br />
           <div>
-            <h4 className="font-weight-bolder">Hola Celeste Tamayo</h4>
+          <h4 className="font-weight-bolder"> Hola, SaraiRes</h4>
+            
             <p className="text-muted">
               <a href="" className="text-reset font-weight-bolder">Tenemos un resumen de tu día </a>
             </p>
@@ -33,13 +35,13 @@ function Inicio() {
           </p>
           <hr className="solid2"></hr>
 
-          <Recordatorios/>
+          <Recordatorios />
           <p className="text-muted titulo">
             <a href="" className="text-reset font-weight-bolder">Y noticias interesantes</a>
           </p>
           <hr className="solid2"></hr>
-          <Noticias/>
-          <MenuGlobal/>
+          <Noticias />
+          <MenuGlobal />
         </div>
       </div>
 

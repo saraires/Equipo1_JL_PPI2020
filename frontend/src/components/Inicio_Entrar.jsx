@@ -57,7 +57,7 @@ class Inicio_Entrar extends Component {
                             <center><h2>Inicio de sesión</h2></center>
                             <div className="form-group">
                                 <label for="exampleDropdownFormEmail1"></label>
-                                <input name="email" type="email" className="form-control" id="exampleDropdownFormEmail1" placeholder="Correo electrónico o nombre de usuario" onChange={this.handleChange} />
+                                <input name="email" type="email" className="form-control" id="exampleDropdownFormEmail1" placeholder="Correo electrónico o nombre de usuario" onChange={this.handleChange} name= ""/>
 
                                 <label for="exampleDropdownFormPassword1"></label>
                                 <input name="clave" type="password" className="form-control" id="exampleDropdownFormPassword1" placeholder="Contraseña" onChange={this.handleChange} />
